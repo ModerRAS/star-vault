@@ -165,12 +165,31 @@
   - [6tail/lunar-csharp](https://github.com/6tail/lunar-csharp) — 公历/农历/节气等日历与历法工具库（C#）。
   - [abpframework/abp](https://github.com/abpframework/abp) — 面向企业应用的 .NET/ASP.NET Core 架构与模块化框架。
   - [aalhour/C-Sharp-Algorithms](https://github.com/aalhour/C-Sharp-Algorithms) — C# 数据结构与算法实现合集。
+  - [Azure/DotNetty](https://github.com/Azure/DotNetty) — .NET 异步网络框架（Netty 移植）。
+  - [AzureAD/microsoft-authentication-library-for-dotnet](https://github.com/AzureAD/microsoft-authentication-library-for-dotnet) — MSAL.NET，微软身份认证库。
+  - [bezzad/Downloader](https://github.com/bezzad/Downloader) — .NET 多线程分片下载器（支持断点续传/限速）。
+  - [beetlex-io/BeetleX](https://github.com/beetlex-io/BeetleX) — .NET 高性能 TCP 通信组件（支持 HTTP/WebSocket/MQTT/RPC）。
+  - [awaescher/OllamaSharp](https://github.com/awaescher/OllamaSharp) — Ollama .NET 客户端（调用本地 LLM API）。
+  - [azixaka/a2adotnet](https://github.com/azixaka/a2adotnet) — Google A2A 协议 .NET 实现（Agent-to-Agent 通信）。
+  - [AvaloniaUI/Citrus.Avalonia](https://github.com/AvaloniaUI/Citrus.Avalonia) — Avalonia 实验主题（多种配色方案）。
+  - [bdlukaa/fluent_ui](https://github.com/bdlukaa/fluent_ui) — Flutter 的 Windows Fluent Design UI 组件库。
 - 游戏开发/CI
   - [aBARICHELLO/godot-ci](https://github.com/aBARICHELLO/godot-ci) — Godot 导出与发布的 CI/CD Docker 镜像模板（GitLab CI/GitHub Actions）。
+  - [bitwes/Gut](https://github.com/bitwes/Gut) — Godot 单元测试框架（GUT）。
+  - [binogure-studio/chart-gd](https://github.com/binogure-studio/chart-gd) — Godot 图表插件。
 - 前端/Electron
   - [aceimnorstuvwxz/electron-notifications-lite](https://github.com/aceimnorstuvwxz/electron-notifications-lite) — Electron 通知模块（用 BrowserWindow 模拟，偏跨平台稳定）。
+  - [bilibili-helper/bilibili-helper-o](https://github.com/bilibili-helper/bilibili-helper-o) — B 站辅助浏览器扩展（下载视频/弹幕查询/直播功能等）。
 - Python 绑定/通信协议
   - [abbat/pytoxcore](https://github.com/abbat/pytoxcore) — ToxCore 的 Python 绑定（项目声明已停止维护）。
+- Android 开发
+  - [Blankj/AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode) — Android 开发工具库（常用功能封装）。
+- NLP/分词
+  - [baidu/lac](https://github.com/baidu/lac) — 百度 LAC（词法分析/分词/词性标注/命名实体识别）。
+- Rust 依赖注入
+  - [AzureMarker/shaku](https://github.com/AzureMarker/shaku) — Rust 编译期依赖注入框架。
+- DTMF 检测
+  - [bert2/DtmfDetection](https://github.com/bert2/DtmfDetection) — .NET DTMF 音检测库（Goertzel 算法）。
 
 ## 资源与清单
 
@@ -250,6 +269,7 @@
 ## 安全/取证
 
 - [AdminTest0/SharpWxDump](https://github.com/AdminTest0/SharpWxDump) — 获取 Windows 微信信息/数据库密钥（取证/渗透场景）。
+- [bee-san/RustScan](https://github.com/bee-san/RustScan) — 超快端口扫描器（Rust，支持脚本引擎）。
 
 ## 数据处理
 
@@ -306,6 +326,9 @@
 ## 游戏开发
 
 - [armory3d/armory](https://github.com/armory3d/armory) — Blender 集成的 3D 游戏引擎（完整工作流）。
+- [bepu/bepuphysics2](https://github.com/bepu/bepuphysics2) — C# 高性能 3D 刚体物理引擎。
+- 游戏翻译
+  - [bbepis/XUnity.AutoTranslator](https://github.com/bbepis/XUnity.AutoTranslator) — Unity 游戏自动翻译插件（支持多种翻译器）。
 
 ## 个人效率
 

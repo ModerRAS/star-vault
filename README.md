@@ -4,7 +4,7 @@
 
 - 总计仓库：1661
 - README 缓存目录：`tmp/readmes/`（不污染仓库）
-- 已人工阅读并分类：355 / 1661
+- 已人工阅读并分类：429 / 1661
 
 ## 目录
 
@@ -86,6 +86,40 @@
 - [OpenWrt插件](#openwrt插件)
 - [UE脚本插件](#ue脚本插件)
 - [qBittorrent界面](#qbittorrent界面)
+- [反向代理](#反向代理)
+- [状态机](#状态机)
+- [配置中心](#配置中心)
+- [分库分表](#分库分表)
+- [ORM框架](#orm框架)
+- [缓存库](#缓存库)
+- [.NET绑定库](#net绑定库)
+- [图形绑定](#图形绑定)
+- [Xposed模块](#xposed模块)
+- [3D体素引擎](#3d体素引擎)
+- [Unity框架](#unity框架)
+- [DAW音频编辑器](#daw音频编辑器)
+- [智能路由](#智能路由)
+- [模板引擎](#模板引擎)
+- [移动开发](#移动开发)
+- [预编译框架](#预编译框架)
+- [DHCP服务](#dhcp服务)
+- [ESP8266加密](#esp8266加密)
+- [Rust API库](#rust-api库)
+- [文件服务器](#文件服务器)
+- [Docker网络](#docker网络)
+- [Godot对话插件](#godot对话插件)
+- [IPFS工具](#ipfs工具)
+- [C#语言设计](#c语言设计)
+- [OBS NDI插件](#obs-ndi插件)
+- [.NET反编译器](#net反编译器)
+- [DirectX兼容层](#directx兼容层)
+- [用户态文件系统](#用户态文件系统)
+- [RDP客户端](#rdp客户端)
+- [AR眼镜工具](#ar眼镜工具)
+- [机器人项目](#机器人项目)
+- [Rust目录库](#rust目录库)
+- [DJI SDK](#dji-sdk)
+- [MC协议库](#mc协议库)
 
 ## 游戏辅助
 
@@ -282,6 +316,7 @@
 - [AdrienTorris/awesome-blazor](https://github.com/AdrienTorris/awesome-blazor) — Blazor 资源清单（.NET Web 框架）。
 - [Allar/ue5-style-guide](https://github.com/Allar/ue5-style-guide) — Unreal Engine 4/5 代码风格指南与最佳实践。
 - [alecthw/mmdb_china_ip_list](https://github.com/alecthw/mmdb_china_ip_list) — MaxMind MMDB 中国 IP 列表整合（用于分流/路由）。
+- [crazycodeboy/awesome-flutter-cn](https://github.com/crazycodeboy/awesome-flutter-cn) — Flutter 中文资源清单。
 
 ## 桌面应用
 
@@ -301,6 +336,14 @@
   - [brookhong/KeyCastOW](https://github.com/brookhong/KeyCastOW) — Windows 按键可视化工具（演示/教学用）。
 - 音乐播放器
   - [caijinyc/here](https://github.com/caijinyc/here) — Electron 网易云音乐第三方播放器。
+- 文本编辑器
+  - [dail8859/NotepadNext](https://github.com/dail8859/NotepadNext) — 跨平台 Notepad++ 重实现（Qt/C++）。
+- PDF/复制优化工具
+  - [CopyPlusPlus/CopyPlusPlus](https://github.com/CopyPlusPlus/CopyPlusPlus) — 复制优化工具（自动合并换行/翻译/PDF 复制修复）。
+- 远程桌面
+  - [dchapyshev/aspia](https://github.com/dchapyshev/aspia) — 开源远程桌面（文件传输/系统信息/NAT 穿透）。
+- 键鼠共享
+  - [deskflow/deskflow](https://github.com/deskflow/deskflow) — 跨设备键鼠共享（原 Synergy 开源分支）。
 
 ## Web 框架与后端
 
@@ -528,6 +571,7 @@
 
 - [bililive-go/bililive-go](https://github.com/bililive-go/bililive-go) — 多平台直播录制工具（B站/斗鱼/虎牙等）。
 - [BililiveRecorder/BililiveRecorder](https://github.com/BililiveRecorder/BililiveRecorder) — mikufans/B站录播姬（自动修复弹幕/断流）。
+- [copyliu/bililive_dm](https://github.com/copyliu/bililive_dm) — B站直播弹幕工具（弹幕姬，支持插件开发）。
 
 ## 自动字幕/翻译
 
@@ -636,6 +680,8 @@
 
 - [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) — "从零构建 X" 教程合集（数据库/Docker/Git/编程语言等）。
 - [chaoyi-wu/Finetune_LLAMA](https://github.com/chaoyi-wu/Finetune_LLAMA) — 微调 LLAMA 的中文指南（多种加速策略）。
+- [DeathKing/Learning-SICP](https://github.com/DeathKing/Learning-SICP) — 《计算机程序的结构和解释》公开课中文翻译项目。
+- [demopark/electron-api-demos-Zh_CN](https://github.com/demopark/electron-api-demos-Zh_CN) — Electron API 演示中文版。
 
 ## 网页爬虫/提取
 
@@ -651,13 +697,17 @@
 - 应用平台/LLM 应用构建
   - [langgenius/dify](https://github.com/langgenius/dify) — 开源 LLM 应用开发平台（可自托管）。
   - [AIDotNet/koala-ai](https://github.com/AIDotNet/koala-ai) — 含知识库/工作流/智能体的 AI 系统服务。
+  - [coze-dev/coze-studio](https://github.com/coze-dev/coze-studio) — 一站式 AI Agent 开发工具（可视化编排/Go+React）。
 - Agent/编排 SDK
   - [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) — LLM/Agent 编排与集成 SDK。
+  - [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) — 多 Agent 协作框架（Python，轻量独立设计）。
 - 终端 AI 助手
   - [charmbracelet/crush](https://github.com/charmbracelet/crush) — 终端 AI 编程助手（支持多模型/MCP/LSP）。
 - 本地推理引擎/基础设施
   - [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) — 本地 LLM 推理（C/C++，多平台）。
   - [amd/RyzenAI-SW](https://github.com/amd/RyzenAI-SW) — AMD Ryzen AI 软件/运行时（NPU 推理加速）。
+- 语音克隆
+  - [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) — 实时语音克隆（SV2TTS，Python/深度学习）。
 
 ## 数据库工具
 
@@ -736,3 +786,439 @@
 ---
 
 > 备注：此前的自动生成版已备份到 `README.auto.generated.md`（内容较大，且分类不保证准确）。
+
+## 多Agent框架
+
+- [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) — 多 Agent 协作框架（Python，轻量独立设计）。
+
+## JS运行时
+
+- [denoland/deno](https://github.com/denoland/deno) — JavaScript/TypeScript/WebAssembly 运行时（安全默认，Rust 实现）。
+
+## KVM工具
+
+- [deskflow/deskflow](https://github.com/deskflow/deskflow) — 跨设备键鼠共享（原 Synergy 开源分支）。
+
+## 打印服务
+
+- [cp9no1/PrinterService](https://github.com/cp9no1/PrinterService) — 内网打印服务（Web 上传打印，支持多种文件格式转 PDF）。
+
+## Flutter资源
+
+- [crazycodeboy/awesome-flutter-cn](https://github.com/crazycodeboy/awesome-flutter-cn) — Flutter 中文资源清单。
+
+## 游戏着色器
+
+- [crosire/reshade](https://github.com/crosire/reshade) — 通用游戏后期注入器（自定义着色器/滤镜）。
+
+## 跨平台并发库
+
+- [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam) — Rust 并发工具集（无锁队列/通道/同步原语等）。
+
+## Jellyfin主题
+
+- [CTalvio/Monochromic](https://github.com/CTalvio/Monochromic) — Jellyfin 自定义主题（暗色极简，已被 Ultrachromic 取代）。
+
+## Flutter/Rust通信
+
+- [cunarist/rinf](https://github.com/cunarist/rinf) — Flutter 中使用 Rust 的框架（消息驱动通信）。
+
+## 地形生成
+
+- [dandrino/terrain-erosion-3-ways](https://github.com/dandrino/terrain-erosion-3-ways) — 三种地形侵蚀生成算法实现（程序化生成）。
+
+## TOTP认证
+
+- [decPL/SimpleTotp](https://github.com/decPL/SimpleTotp) — .NET TOTP 二次验证库（简单实现）。
+
+## 远程桌面
+
+- [dchapyshev/aspia](https://github.com/dchapyshev/aspia) — 开源远程桌面（文件传输/系统信息/NAT 穿透）。
+
+## 歌词工具
+
+- [ddddxxx/LyricsX](https://github.com/ddddxxx/LyricsX) — macOS 歌词应用（自动搜索/桌面歌词/菜单栏显示）。
+
+## 假人客户端
+
+- [ddf8196/FakePlayer](https://github.com/ddf8196/FakePlayer) — Minecraft Bedrock 版假人客户端（用于挂机/测试）。
+
+## iOS规则工具
+
+- [ddgksf2013/ddgksf2013](https://github.com/ddgksf2013/ddgksf2013) — QuantumultX/iOS 代理规则与脚本合集（墨魚手記）。
+
+## CDN优选
+
+- [ddgth/cf2dns](https://github.com/ddgth/cf2dns) — Cloudflare IP 优选并更新 DNS 记录（支持多种 DNS 服务商）。
+
+## 节点编辑器
+
+- [DebugST/STNodeEditor](https://github.com/DebugST/STNodeEditor) — C# 节点编辑器控件（GDI 实现，类似蓝图/流程图）。
+
+## WireGuard工具
+
+- [decathorpe/mitmproxy_wireguard](https://github.com/decathorpe/mitmproxy_wireguard) — WireGuard 透明代理（mitmproxy 集成，项目已合并到 mitmproxy_rs）。
+
+## MarkovJunior
+
+- [DevBobcorn/MarkovCraft](https://github.com/DevBobcorn/MarkovCraft) — MarkovJunior Unity 移植（支持 Minecraft 风格导出）。
+
+## 游戏控制器
+
+- [Davidobot/BetterJoy](https://github.com/Davidobot/BetterJoy) — Nintendo Switch Pro Controller/Joycons PC 适配工具（XInput/陀螺仪）。
+
+## 网络游戏库
+
+- [davyxu/cellnet](https://github.com/davyxu/cellnet) — Go 游戏服务器网络库（TCP/UDP/HTTP/WebSocket/多协议）。
+
+## 防追踪工具
+
+- [crazy-max/WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker) — Windows 隐私保护（阻止遥测/追踪流量）。
+
+## UE脚本插件
+
+- [crazytuzi/UnrealCSharp](https://github.com/crazytuzi/UnrealCSharp) — Unreal Engine C# 脚本插件（支持 UE5，动态类生成）。
+
+## qBittorrent界面
+
+- [CzBiX/qb-web](https://github.com/CzBiX/qb-web) — qBittorrent 现代化 WebUI（Vue，支持 RSS/搜索）。
+
+## 视频制作工具
+
+- [DanDDXuanX/TRPG-Replay-Generator](https://github.com/DanDDXuanX/TRPG-Replay-Generator) — 跑团 Replay 视频制作工具（回声工坊）。
+
+## CMake/Rust集成
+
+- [corrosion-rs/corrosion](https://github.com/corrosion-rs/corrosion) — CMake 集成 Rust 工具（自动导入 Cargo 项目）。
+
+## 游戏
+
+- [Anuken/Mindustry](https://github.com/Anuken/Mindustry) — 自动化塔防即时策略游戏（Java/开源）。
+- [ConcreteMC/Alex](https://github.com/ConcreteMC/Alex) — Minecraft Java/Bedrock 客户端（C#，项目已停止维护）。
+
+## OpenWrt插件
+
+- [destan19/OpenAppFilter](https://github.com/destan19/OpenAppFilter) — OpenWrt 应用过滤/防沉迷插件（支持游戏/视频等 APP 过滤）。
+
+## 脚本工具
+
+- [curtinlv/JD-Script](https://github.com/curtinlv/JD-Script) — 京东关注有礼脚本（Python）。
+
+## Unity工具
+
+- [danielshervheim/unity-sdf-generator](https://github.com/danielshervheim/unity-sdf-generator) — Unity SDF 体积纹理生成器（从网格生成距离场）。
+
+## 反向代理
+
+- [dotnet/yarp](https://github.com/dotnet/yarp) — .NET 高性能反向代理工具包（ASP.NET Core，高度可定制）。
+
+## 状态机
+
+- [dotnet-state-machine/stateless](https://github.com/dotnet-state-machine/stateless) — .NET 轻量状态机库（支持层级状态/进入退出事件/触发器参数）。
+
+## 配置中心
+
+- [dotnetcore/AgileConfig](https://github.com/dotnetcore/AgileConfig) — .NET 轻量配置中心（实时生效/分布式部署/OpenTelemetry 支持）。
+
+## 分库分表
+
+- [dotnetcore/sharding-core](https://github.com/dotnetcore/sharding-core) — EF Core 高性能分表分库库（零侵入/读写分离）。
+
+## ORM框架
+
+- [DotNetNext/SqlSugar](https://github.com/DotNetNext/SqlSugar) — .NET ORM 框架（多数据库/低代码/大数据支持）。
+- [diesel-rs/diesel](https://github.com/diesel-rs/diesel) — Rust 安全可扩展 ORM（PostgreSQL/MySQL/SQLite）。
+
+## 缓存库
+
+- [dotnetcore/EasyCaching](https://github.com/dotnetcore/EasyCaching) — .NET 缓存库（支持 Redis/Memcached/SQLite/InMemory/混合缓存）。
+
+## .NET绑定库
+
+- [dotnet/ClangSharp](https://github.com/dotnet/ClangSharp) — .NET Clang 绑定（自动生成 P/Invoke，编译器工具链构建）。
+- [dotnet/LLVMSharp](https://github.com/dotnet/LLVMSharp) — .NET LLVM 绑定（可构建完整编译器）。
+- [dotnet/Docker.DotNet](https://github.com/dotnet/Docker.DotNet) — .NET Docker Remote API 客户端（异步/非阻塞）。
+- [dotnet/TorchSharp](https://github.com/dotnet/TorchSharp) — .NET PyTorch 绑定（libtorch 封装）。
+- [dokan-dev/dokan-dotnet](https://github.com/dokan-dev/dokan-dotnet) — .NET Dokany 绑定（用户态文件系统开发）。
+- [DevJohnC/Opus.NET](https://github.com/DevJohnC/Opus.NET) — .NET Opus 音频编解码库封装。
+
+## 图形绑定
+
+- [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) — .NET 高性能图形/计算绑定库（OpenGL/Vulkan/OpenAL/OpenXR/DirectX 等）。
+
+## Xposed模块
+
+- [Dr-TSNG/Hide-My-Applist](https://github.com/Dr-TSNG/Hide-My-Applist) — Android Xposed 模块（隐藏应用列表检测/反隐私采集）。
+
+## 3D体素引擎
+
+- [Divine-Star-Software/DivineVoxelEngine](https://github.com/Divine-Star-Software/DivineVoxelEngine) — TypeScript 多线程体素引擎（Minecraft 风格，渲染器无关）。
+
+## Unity框架
+
+- [DonnYep/CosmosFramework](https://github.com/DonnYep/CosmosFramework) — Unity 中轻量开发框架（模块化/网络/资源/工作流）。
+- [dotnetcore/Util](https://github.com/dotnetcore/Util) — .NET 应用框架（工具类/分层架构/代码生成/权限系统）。
+
+## DAW音频编辑器
+
+- [Do-sth-sharp/VocalShaper](https://github.com/Do-sth-sharp/VocalShaper) — JUCE 开源 DAW（支持 VST/LV2/ARA 等插件，开发中）。
+
+## 智能路由
+
+- [domosekai/turnout](https://github.com/domosekai/turnout) — 智能路由代理（自动学习被阻断站点走备用线路）。
+
+## 模板引擎
+
+- [dotliquid/dotliquid](https://github.com/dotliquid/dotliquid) — .NET Liquid 模板引擎（Ruby Liquid 移植，安全渲染）。
+
+## 移动开发
+
+- [dotnet/android](https://github.com/dotnet/android) — .NET for Android（原 Xamarin.Android，.NET 6+ workload）。
+- [dotnet/MobileBlazorBindings](https://github.com/dotnet/MobileBlazorBindings) — Mobile Blazor Bindings（用 Razor 构建原生移动 UI，已归档）。
+
+## 预编译框架
+
+- [dotnet-campus/SourceFusion](https://github.com/dotnet-campus/SourceFusion) — .NET 预编译代码生成框架（运行时代码迁移到编译期）。
+- [dotnet-campus/dotnetCampus.AppHost](https://github.com/dotnet-campus/dotnetCampus.AppHost) — .NET AppHost 相对路径运行时支持（已被 .NET 9 内置取代）。
+
+## DHCP服务
+
+- [dotnetprojects/sharp-dhcp-server-lib](https://github.com/dotnetprojects/sharp-dhcp-server-lib) — .NET DHCP 服务器库（纯托管实现）。
+
+## ESP8266加密
+
+- [dmaixner/esp8266-chachapoly](https://github.com/dmaixner/esp8266-chachapoly) — ESP8266 ChaCha20-Poly1305 加密库封装。
+
+## Rust API库
+
+- [dongri/openai-api-rs](https://github.com/dongri/openai-api-rs) — Rust OpenAI API 客户端（非官方）。
+
+## 文件服务器
+
+- [domac/file-glance](https://github.com/domac/file-glance) — Go 简单文件服务器（支持文件内容搜索）。
+
+## Docker网络
+
+- [devplayer0/docker-net-dhcp](https://github.com/devplayer0/docker-net-dhcp) — Docker DHCP 网络驱动插件（容器直接获取 DHCP IP）。
+
+## Godot对话插件
+
+- [dialogic-godot/dialogic](https://github.com/dialogic-godot/dialogic) — Godot 对话/视觉小说插件（Godot 4.3+，时间线编辑器）。
+
+## IPFS工具
+
+- [download13/ipfstube](https://github.com/download13/ipfstube) — IPFS 视频播放 Web 应用。
+
+## C#语言设计
+
+- [dotnet/csharplang](https://github.com/dotnet/csharplang) — C# 语言设计官方仓库（提案/规范/设计讨论）。
+
+## OBS NDI插件
+
+- [DistroAV/DistroAV](https://github.com/DistroAV/DistroAV) — OBS NDI 音视频网络传输插件（开源，支持 5.x 以上）。
+
+## .NET反编译器
+
+- [dnSpyEx/dnSpy](https://github.com/dnSpyEx/dnSpy) — .NET 程序集反编译器/调试器（dnSpy 社区续作）。
+
+## DirectX兼容层
+
+- [doitsujin/dxvk](https://github.com/doitsujin/dxvk) — Vulkan 实现的 DirectX 8/9/10/11（Wine/Linux 游戏加速）。
+
+## 用户态文件系统
+
+- [dokan-dev/dokany](https://github.com/dokan-dev/dokany) — Windows 用户态文件系统驱动（类 FUSE，可自定义虚拟文件系统）。
+
+## RDP客户端
+
+- [Devolutions/IronRDP](https://github.com/Devolutions/IronRDP) — Rust RDP 协议实现（专注安全，可嵌入/WebAssembly）。
+
+## AR眼镜工具
+
+- [DiscreteTom/HyperStudio](https://github.com/DiscreteTom/HyperStudio) — Windows AR 眼镜屏幕投射工具（Xreal/Rokid 等）。
+
+## 机器人项目
+
+- [dingdang-robot/dingdang-robot](https://github.com/dingdang-robot/dingdang-robot) — 中文语音对话机器人（树莓派，已停止维护）。
+
+## Rust目录库
+
+- [dirs-dev/directories-rs](https://github.com/dirs-dev/directories-rs) — Rust 跨平台用户目录路径库（中级 API）。
+- [dirs-dev/dirs-rs](https://github.com/dirs-dev/dirs-rs) — Rust 跨平台目录路径库（低级 API）。
+
+## DJI SDK
+
+- [dji-sdk/Guidance-SDK](https://github.com/dji-sdk/Guidance-SDK) — 大疆 Guidance 视觉传感器 SDK（USB/UART 数据访问）。
+
+## MC协议库
+
+- [dmulloy2/ProtocolLib](https://github.com/dmulloy2/ProtocolLib) — Minecraft Bukkit 协议拦截库（读写/修改/注入网络包）。
+
+## 分布式Actor框架
+
+- [dotnet/orleans](https://github.com/dotnet/orleans) — .NET 分布式 Virtual Actor 框架（Orleans，云原生编程模型）。
+
+## MQTT库
+
+- [dotnet/MQTTnet](https://github.com/dotnet/MQTTnet) — .NET 高性能 MQTT 库（客户端+服务端，支持 v3/v5）。
+
+## QR码传输
+
+- [divan/txqr](https://github.com/divan/txqr) — 动态 QR 码数据传输协议（喷泉码纠错，Go 实现）。
+
+## Hugo主题
+
+- [dplesca/purehugo](https://github.com/dplesca/purehugo) — Hugo 博客主题（基于 PureCSS，响应式）。
+- [digitalcraftsman/hugo-icarus-theme](https://github.com/digitalcraftsman/hugo-icarus-theme) — Hugo Icarus 主题（已停止维护）。
+
+## 电子表格
+
+- [dream-num/univer](https://github.com/dream-num/univer) — 同构电子表格/文档/幻灯片框架（Web+服务器，支持协作）。
+- [dream-num/Luckysheet](https://github.com/dream-num/Luckysheet) — 在线电子表格（纯前端，已停止维护，迁移到 Univer）。
+
+## 嵌入式数据库
+
+- [duckdb/duckdb](https://github.com/duckdb/duckdb) — DuckDB 嵌入式分析型 SQL 数据库（OLAP/向量搜索/高性能）。
+
+## P2P文件分发
+
+- [dragonflyoss/dragonfly-archived](https://github.com/dragonflyoss/dragonfly-archived) — Dragonfly P2P 文件分发系统（已归档，迁移到 Dragonfly2）。
+
+## Minecraft协议
+
+- [DragonetMC/DragonProxy](https://github.com/DragonetMC/DragonProxy) — Minecraft Bedrock→Java 服务端代理（已弃用，推荐 Geyser）。
+
+## 跟踪算法基准
+
+- [Escheee/TBCF](https://github.com/Escheee/TBCF) — 相关滤波跟踪算法基准测试（OTB 结果收集）。
+
+## 局域网屏幕共享
+
+- [EslaMx7/ScreenTask](https://github.com/EslaMx7/ScreenTask) — 局域网屏幕分享工具（无需互联网，Web 客户端）。
+
+## 嵌入式SSL库
+
+- [espressif/esp-wolfssl](https://github.com/espressif/esp-wolfssl) — ESP-IDF wolfSSL 组件（嵌入式 TLS）。
+
+## VS Code扩展
+
+- [espressif/vscode-esp-idf-extension](https://github.com/espressif/vscode-esp-idf-extension) — ESP-IDF VS Code 扩展（开发/构建/烧录/调试）。
+
+## NuGet工具
+
+- [emgarten/NuGet.CatalogReader](https://github.com/emgarten/NuGet.CatalogReader) — NuGet Feed 镜像/读取工具（支持 v3 协议）。
+
+## 音频分离
+
+- [etzinis/sudo_rm_rf](https://github.com/etzinis/sudo_rm_rf) — 高效通用音源分离网络（Sudo rm -rf，低计算资源）。
+
+## 用户空间网卡驱动
+
+- [emmericp/ixy](https://github.com/emmericp/ixy) — 用户空间网卡驱动教学项目（<1000 行代码，类 DPDK）。
+
+## A2A协议
+
+- [EmilLindfors/a2a-rs](https://github.com/EmilLindfors/a2a-rs) — Rust Agent-to-Agent 协议实现（六边形架构）。
+
+## 体素沙盒游戏
+
+- [Dreamtowards/Ethertum](https://github.com/Dreamtowards/Ethertum) — Rust+Bevy 体素沙盒生存游戏（开发中）。
+
+## 安全欺骗
+
+- [drk1wi/Portspoof](https://github.com/drk1wi/Portspoof) — 端口欺骗工具（所有端口开放+伪造服务签名）。
+
+## Word2Vec
+
+- [eabdullin/Word2Vec.Net](https://github.com/eabdullin/Word2Vec.Net) — Word2Vec .NET 移植。
+
+## Switch模拟
+
+- [EasyConNS/EasyMCU_ESP32](https://github.com/EasyConNS/EasyMCU_ESP32) — ESP32 模拟 Switch 手柄/Amiibo。
+
+## UEFI固件
+
+- [edk2-porting/edk2-msm8998](https://github.com/edk2-porting/edk2-msm8998) — 骁龙 835 UEFI 固件项目。
+
+## USB示波器
+
+- [EEVengers/ThunderScope](https://github.com/EEVengers/ThunderScope) — 低成本 USB4 示波器硬件项目。
+
+## TDLib绑定
+
+- [egramtel/tdsharp](https://github.com/egramtel/tdsharp) — .NET TDLib（Telegram 数据库库）绑定。
+
+## Markdown编辑器
+
+- [egrcc/Mango](https://github.com/egrcc/Mango) — 跨平台 Markdown 编辑器（数学公式/代码高亮）。
+
+## Reed-Solomon纠错
+
+- [egbakou/reedsolomon](https://github.com/egbakou/reedsolomon) — .NET Reed-Solomon 纠错码实现。
+
+## HTML转Markdown
+
+- [Eished/html-to-markdown](https://github.com/Eished/html-to-markdown) — HTML 批量转 Markdown（Evernote 迁移）。
+
+## .NET加密库
+
+- [ektrah/nsec](https://github.com/ektrah/nsec) — .NET 现代加密库（基于 libsodium）。
+- [ektrah/libsodium-core](https://github.com/ektrah/libsodium-core) — .NET libsodium 绑定（已停止活跃开发）。
+
+## 搜索引擎
+
+- [elastic/elasticsearch](https://github.com/elastic/elasticsearch) — Elasticsearch 分布式搜索与分析引擎（支持向量搜索/RAG）。
+- [elastic/elasticsearch-net](https://github.com/elastic/elasticsearch-net) — .NET Elasticsearch 官方客户端。
+
+## 隐私分析
+
+- [electerious/Ackee](https://github.com/electerious/Ackee) — 自托管隐私分析平台（Node.js，无 Cookie）。
+
+## Telegram机器人
+
+- [Elepover/pmcenter](https://github.com/Elepover/pmcenter) — Telegram 私信处理机器人（.NET，跨平台）。
+
+## 工作流引擎
+
+- [elsa-workflows/elsa-core](https://github.com/elsa-workflows/elsa-core) — .NET 工作流引擎（支持可视化设计器）。
+
+## 嵌入式异步框架
+
+- [embassy-rs/embassy](https://github.com/embassy-rs/embassy) — Rust 嵌入式异步框架（STM32/nRF/ESP32/RP 等）。
+
+## 图像处理
+
+- [emgucv/emgucv](https://github.com/emgucv/emgucv) — .NET OpenCV 跨平台封装（Emgu CV）。
+
+## IoT消息平台
+
+- [emqx/emqx](https://github.com/emqx/emqx) — EMQX 高可扩展 MQTT 平台（支持 MQTT/CoAP/LwM2M/QUIC）。
+
+## 音乐流媒体
+
+- [epoupon/lms](https://github.com/epoupon/lms) — LMS 轻量音乐流媒体服务器（Subsonic 兼容，多值标签）。
+
+## GitHub Copilot代理
+
+- [ericc-ch/copilot-api](https://github.com/ericc-ch/copilot-api) — GitHub Copilot API 反向代理（OpenAI/Anthropic 兼容，非官方）。
+
+## WebGPU渲染
+
+- [dtysky/webgpu-renderer](https://github.com/dtysky/webgpu-renderer) — WebGPU 渲染器（含路径追踪）。
+
+## vGPU解锁
+
+- [DualCoder/vgpu_unlock](https://github.com/DualCoder/vgpu_unlock) — 解锁消费级 NVIDIA GPU 的 vGPU 功能。
+
+## 游戏画质增强
+
+- [DuolaD/HoYoShade](https://github.com/DuolaD/HoYoShade) — 米哈游游戏视觉增强着色器（原神/星穹铁道等，ReShade）。
+
+## CI/CD插件
+
+- [drone-plugins/drone-github-release](https://github.com/drone-plugins/drone-github-release) — Drone CI GitHub Release 发布插件。
+
+## MagicaVoxel
+
+- [ephtracy/ephtracy.github.io](https://github.com/ephtracy/ephtracy.github.io) — MagicaVoxel 个人项目页面。
+

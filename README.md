@@ -4,7 +4,7 @@
 
 - 总计仓库：1661
 - README 缓存目录：`tmp/readmes/`（不污染仓库）
-- 已人工阅读并分类：479 / 1661
+- 已人工阅读并分类：629 / 1661
 
 ## 目录
 
@@ -1403,4 +1403,577 @@
 ## 游戏引擎
 
 - [FlaxEngine/FlaxEngine](https://github.com/FlaxEngine/FlaxEngine) — Flax Engine 高质量 3D 游戏引擎（C++/C#，开源）。
+- [gameplay3d/gameplay](https://github.com/gameplay3d/gameplay) — GamePlay 开源跨平台 C++ 2D/3D 游戏框架（Windows/Mac/Linux/iOS/Android）。
+- [godotengine/godot](https://github.com/godotengine/godot) — Godot Engine 开源跨平台 2D/3D 游戏引擎（MIT 授权，功能丰富）。
+
+## GPS轨迹管理
+
+- [Flomp/wanderer](https://github.com/Flomp/wanderer) — Wanderer 自托管 GPS 轨迹目录（路线搜索/规划/分享）。
+
+## WARC数据库
+
+- [Florents-Tselai/WarcDB](https://github.com/Florents-Tselai/WarcDB) — WARC 网页爬取数据转 SQLite 数据库。
+
+## WPF控件库
+
+- [fluentribbon/Fluent.Ribbon](https://github.com/fluentribbon/Fluent.Ribbon) — WPF Office 风格 Ribbon 控件库。
+
+## UPnP客户端
+
+- [flyte/upnpclient](https://github.com/flyte/upnpclient) — Python 3 UPnP 客户端库（设备发现/服务调用）。
+
+## 示例项目
+
+- [flywithbug-vue/vue-todo](https://github.com/flywithbug-vue/vue-todo) — Vue + Go 示例 Todo 应用。
+
+## 视频会议
+
+- [fmeringdal/nettu-meet](https://github.com/fmeringdal/nettu-meet) — Nettu Meet 自托管视频会议（交互式在线辅导）。
+
+## Linux运行Windows
+
+- [Fmstrat/winapps](https://github.com/Fmstrat/winapps) — WinApps 在 Linux 中运行 Windows 应用（RDP，无缝集成）。
+
+## XNA重实现
+
+- [FNA-XNA/FNA](https://github.com/FNA-XNA/FNA) — FNA XNA4 跨平台重实现（游戏框架，PC/Xbox/移动端）。
+
+## C++ SQLite ORM
+
+- [fnc12/sqlite_orm](https://github.com/fnc12/sqlite_orm) — C++ SQLite ORM（header-only，现代 C++ 风格）。
+
+## Telegram推送
+
+- [Fndroid/tg_push_bot](https://github.com/Fndroid/tg_push_bot) — Telegram 推送机器人（简单消息推送服务）。
+
+## 音乐管理
+
+- [foamzou/melody](https://github.com/foamzou/melody) — Melody 音乐管理工具（支持上传云盘/歌词匹配）。
+
+## 艺术图像生成
+
+- [fogleman/Quads](https://github.com/fogleman/Quads) — 四叉树艺术图像生成（递归细分图像）。
+
+## Firefox分支
+
+- [fork-maintainers/iceraven-browser](https://github.com/fork-maintainers/iceraven-browser) — Iceraven 浏览器 Firefox Android 开源分支（更多自定义/扩展支持）。
+
+## 渗透测试工具
+
+- [fortra/impacket](https://github.com/fortra/impacket) — Impacket Python 网络协议库（SMB/MSRPC/渗透测试）。
+- [FunnyWolf/Viper](https://github.com/FunnyWolf/Viper) — VIPER 红队平台（对抗模拟/MITRE ATT&CK/自动化工作流/LLM Agent）。
+
+## 开源卫星
+
+- [FOSSASystems/FOSSASAT-1](https://github.com/FOSSASystems/FOSSASAT-1) — FOSSASAT-1 开源皮卫星（LoRa IoT 通信）。
+
+## Java二进制存档
+
+- [frekele/oracle-java](https://github.com/frekele/oracle-java) — Oracle Java 二进制存档（旧版本 JDK 下载）。
+
+## AdGuard API
+
+- [frenck/python-adguardhome](https://github.com/frenck/python-adguardhome) — Python AdGuard Home API 客户端库。
+
+## ECS框架
+
+- [friflo/Friflo.Engine.ECS](https://github.com/friflo/Friflo.Engine.ECS) — Friflo 高性能 C# ECS 框架（Entity Component System）。
+
+## 微信机器人
+
+- [fritx/wxbot](https://github.com/fritx/wxbot) — wxbot 微信网页版机器人（Electron/Node.js）。
+
+## BitTorrent封装
+
+- [frostwire/frostwire-jlibtorrent](https://github.com/frostwire/frostwire-jlibtorrent) — Java libtorrent 封装（BitTorrent 库）。
+
+## F# UI框架
+
+- [fsprojects/Avalonia.FuncUI](https://github.com/fsprojects/Avalonia.FuncUI) — F# Avalonia 函数式 UI 框架（Elm 风格）。
+
+## 公共事件数据
+
+- [fuckcqcs/fuckcqcs](https://github.com/fuckcqcs/fuckcqcs) — 2018 年疫苗事件相关数据整理。
+
+## Claude API代理
+
+- [fuergaosi233/claude-code-proxy](https://github.com/fuergaosi233/claude-code-proxy) — Claude Code 转 OpenAI API 代理。
+
+## 语音合成TTS
+
+- [FunAudioLLM/CosyVoice](https://github.com/FunAudioLLM/CosyVoice) — CosyVoice 多语言语音合成 TTS（LLM 驱动，流式生成）。
+
+## Docker API客户端
+
+- [fussybeaver/bollard](https://github.com/fussybeaver/bollard) — Bollard Rust 异步 Docker API 客户端（Tokio/Hyper）。
+
+## EPUB阅读器
+
+- [futurepress/epub.js](https://github.com/futurepress/epub.js) — Epub.js 浏览器 EPUB 渲染库（跨设备，BSD 授权）。
+
+## 中文分词
+
+- [fxsjy/jieba](https://github.com/fxsjy/jieba) — 结巴中文分词（精确/全/搜索引擎模式，支持 Paddle）。
+
+## 浏览器兼容性数据
+
+- [Fyrd/caniuse](https://github.com/Fyrd/caniuse) — Can I Use 浏览器兼容性数据源（CSS/JS/HTML5 特性）。
+
+## Flutter与Rust桥接
+
+- [fzyzcjy/flutter_rust_bridge](https://github.com/fzyzcjy/flutter_rust_bridge) — Flutter/Dart ↔ Rust 绑定生成器（支持任意类型/异步/FFI）。
+
+## 游戏解包工具
+
+- [galaxy001/xp3dumpergui](https://github.com/galaxy001/xp3dumpergui) — XP3 封包解包工具 GUI（吉里吉里游戏资源提取）。
+
+## 游戏加速
+
+- [game1024/Speedy](https://github.com/game1024/Speedy) — OpenSpeedy 开源游戏加速工具（突破帧率限制）。
+
+## 程序化生成
+
+- [gdquest-demos/godot-procedural-generation](https://github.com/gdquest-demos/godot-procedural-generation) — Godot 程序化内容生成 Demo（PCG 算法教学）。
+
+## 电力系统数据
+
+- [gemstone/comtrade](https://github.com/gemstone/comtrade) — .NET COMTRADE 电力系统瞬态数据格式库（IEEE C37.111）。
+
+## Android投屏
+
+- [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) — scrcpy Android 设备投屏控制（USB/TCP，低延迟，开源）。
+
+## UE AI插件
+
+- [getnamo/TensorFlow-Unreal](https://github.com/getnamo/TensorFlow-Unreal) — Unreal Engine TensorFlow 插件（机器学习集成）。
+
+## Gemini API代理
+
+- [GewoonJaap/gemini-cli-openai](https://github.com/GewoonJaap/gemini-cli-openai) — Gemini CLI OpenAI Worker（Google Gemini 转 OpenAI 兼容 API）。
+
+## Minecraft协议库
+
+- [GeyserMC/MCProtocolLib](https://github.com/GeyserMC/MCProtocolLib) — MCProtocolLib Java Minecraft 协议库（构建机器人/客户端）。
+
+## GFW规则列表
+
+- [gfwlist/gfwlist](https://github.com/gfwlist/gfwlist) — GFWList 官方维护（代理规则列表）。
+
+## LLM推理引擎
+
+- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) — llama.cpp LLM 推理引擎（C/C++，支持多种硬件加速）。
+
+## 语音识别引擎
+
+- [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) — whisper.cpp OpenAI Whisper 高性能推理（C/C++，多平台）。
+
+## WordPress主题
+
+- [ghboke/win10explore](https://github.com/ghboke/win10explore) — Win10 资源管理器风格 WordPress 主题。
+
+## 网页保存
+
+- [gildas-lormeau/SingleFile](https://github.com/gildas-lormeau/SingleFile) — SingleFile 网页保存为单个 HTML 文件（浏览器扩展/CLI）。
+
+## Unity动画事件
+
+- [Ginurx/MecanimEventSystem](https://github.com/Ginurx/MecanimEventSystem) — Unity Mecanim 动画事件系统。
+
+## DuckDB绑定
+
+- [Giorgi/DuckDB.NET](https://github.com/Giorgi/DuckDB.NET) — DuckDB .NET 绑定（高性能分析数据库）。
+
+## 评论系统
+
+- [gitalk/gitalk](https://github.com/gitalk/gitalk) — Gitalk 基于 GitHub Issue 的评论系统（Preact，无服务器）。
+
+## Git托管平台
+
+- [gitbucket/gitbucket](https://github.com/gitbucket/gitbucket) — GitBucket 自托管 Git 平台（Scala，GitHub API 兼容）。
+- [gogs/gogs](https://github.com/gogs/gogs) — Gogs 自托管 Git 服务（Go，极低资源占用）。
+
+## Rust Git实现
+
+- [GitoxideLabs/gitoxide](https://github.com/GitoxideLabs/gitoxide) — gitoxide Rust Git 实现（高性能，正确性优先）。
+
+## Mastodon客户端
+
+- [glacasa/Mastonet](https://github.com/glacasa/Mastonet) — .NET Mastodon API 客户端库。
+
+## Unity NuGet
+
+- [GlitchEnzo/NuGetForUnity](https://github.com/GlitchEnzo/NuGetForUnity) — NuGet for Unity 包管理器（在 Unity 中使用 NuGet 包）。
+
+## 分布式文件系统
+
+- [gluster/glusterfs](https://github.com/gluster/glusterfs) — GlusterFS 分布式可扩展网络文件系统（支持 PB 级存储）。
+
+## 全局键鼠钩子
+
+- [gmamaladze/globalmousekeyhook](https://github.com/gmamaladze/globalmousekeyhook) — .NET 全局键盘鼠标钩子（后台录制/监控）。
+
+## MC服务端Mod
+
+- [gnembon/fabric-carpet](https://github.com/gnembon/fabric-carpet) — Carpet Mod Minecraft Fabric 技术向 Mod（tick 加速/漏斗计数/活塞推方块等）。
+
+## 即时通讯服务
+
+- [GoBelieveIO/im_service](https://github.com/GoBelieveIO/im_service) — Go IM 服务（点对点/群组/聊天室，支持 50W 在线）。
+
+## 安全扫描平台
+
+- [gobysec/Goby](https://github.com/gobysec/Goby) — Goby 网络安全评估工具（漏洞扫描/攻击面发现）。
+
+## Godot ECS
+
+- [GodotECS/godex](https://github.com/GodotECS/godex) — Godex Godot ECS 库（Entity Component System）。
+
+## Godot导出工具
+
+- [godotengine/godot-blender-exporter](https://github.com/godotengine/godot-blender-exporter) — Godot Blender 导出插件（.escn 格式）。
+
+## Godot WebRTC
+
+- [godotengine/webrtc-native](https://github.com/godotengine/webrtc-native) — Godot WebRTC 原生插件（P2P 通信）。
+
+## Godot调试菜单
+
+- [godot-extended-libraries/godot-debug-menu-demo](https://github.com/godot-extended-libraries/godot-debug-menu-demo) — Godot 性能调试菜单插件（FPS/帧时间显示）。
+
+## Godot Rust绑定
+
+- [godot-rust/gdext](https://github.com/godot-rust/gdext) — Godot 4 Rust 绑定（GDExtension API）。
+
+## Godot Steam集成
+
+- [GodotSteam/GodotSteam](https://github.com/GodotSteam/GodotSteam) — GodotSteam Godot Steamworks 集成。
+
+## Go全文搜索
+
+- [go-ego/riot](https://github.com/go-ego/riot) — Riot Go 分布式全文搜索引擎（中文分词/BM25/高性能）。
+
+## 容器镜像仓库
+
+- [goharbor/harbor](https://github.com/goharbor/harbor) — Harbor 云原生镜像仓库（安全扫描/签名/RBAC/复制）。
+
+## 静态网站生成器
+
+- [gohugoio/hugo](https://github.com/gohugoio/hugo) — Hugo 快速静态网站生成器（Go，多语言支持）。
+
+## 云原生应用平台
+
+- [goodrain/rainbond](https://github.com/goodrain/rainbond) — Rainbond 云原生应用管理平台（无需学习 K8s）。
+
+## 文本比较库
+
+- [google/diff-match-patch](https://github.com/google/diff-match-patch) — Diff Match Patch 文本比较/匹配/补丁库（多语言，Google Docs 使用）。
+
+## Android播放器
+
+- [google/ExoPlayer](https://github.com/google/ExoPlayer) — ExoPlayer Android 媒体播放器（已迁移至 AndroidX Media3）。
+
+## 快速压缩
+
+- [google/snappy](https://github.com/google/snappy) — Snappy 快速压缩/解压库（250 MB/s+，Google 出品）。
+
+## 配置语言
+
+- [google/starlark-go](https://github.com/google/starlark-go) — Starlark Go 实现（配置语言，Python 方言，Bazel 使用）。
+
+## AI音乐
+
+- [googlecreativelab/aiexperiments-ai-duet](https://github.com/googlecreativelab/aiexperiments-ai-duet) — AI Duet 钢琴对话实验（TensorFlow/Magenta）。
+
+## 高速下载器
+
+- [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) — Gopeed 高速下载器（Go+Flutter，支持 HTTP/BT/磁力链）。
+
+## React示例
+
+- [gothinkster/react-redux-realworld-example-app](https://github.com/gothinkster/react-redux-realworld-example-app) — React Redux RealWorld 示例应用（Medium 克隆）。
+
+## 消息推送
+
+- [gotify/server](https://github.com/gotify/server) — Gotify 自托管消息推送服务器（WebSocket 实时推送）。
+
+## 多媒体框架
+
+- [gpac/gpac](https://github.com/gpac/gpac) — GPAC 多媒体框架（MP4/DASH/流媒体/3D/字幕处理）。
+
+## 日志聚合
+
+- [grafana/loki](https://github.com/grafana/loki) — Loki 日志聚合系统（类 Prometheus，按标签索引）。
+
+## QQ机器人框架
+
+- [GraiaProject/Application](https://github.com/GraiaProject/Application) — Graia Application QQ 机器人框架（mirai-api-http，已废弃）。
+- [GraiaProject/Avilla](https://github.com/GraiaProject/Avilla) — Avilla 下一代 IM 开发框架（跨平台/原生多账号）。
+
+## 文章提取
+
+- [grangier/python-goose](https://github.com/grangier/python-goose) — Python Goose 文章提取器（正文/图片/视频）。
+
+## 游戏私服
+
+- [Grasscutters/Grasscutter](https://github.com/Grasscutters/Grasscutter) — Grasscutter 原神私服（Java，支持 4.0 版本）。
+
+## 网络监控硬件
+
+- [greatscottgadgets/throwing-star-lan-tap](https://github.com/greatscottgadgets/throwing-star-lan-tap) — Throwing Star LAN Tap 被动网络监听器（10/100 以太网）。
+
+## 路由协议
+
+- [greearb/xorp.ct](https://github.com/greearb/xorp.ct) — XORP 可扩展开放路由平台（CMake 构建版本）。
+
+## 电力系统框架
+
+- [GridProtectionAlliance/gsf](https://github.com/GridProtectionAlliance/gsf) — Grid Solutions Framework .NET 电力系统框架（时序数据/协议解析）。
+
+## GitHub中文排行榜
+
+- [GrowingGit/GitHub-Chinese-Top-Charts](https://github.com/GrowingGit/GitHub-Chinese-Top-Charts) — GitHub 中文排行榜（发现优秀中文项目）。
+
+## VPN组网
+
+- [gsliepen/tinc](https://github.com/gsliepen/tinc) — tinc P2P VPN 守护进程（自动组网/中转）。
+
+## GTFOBins
+
+- [GTFOBins/GTFOBins.github.io](https://github.com/GTFOBins/GTFOBins.github.io) — GTFOBins Unix 二进制利用技巧列表（安全绕过）。
+
+## 终端UI框架
+
+- [gui-cs/Terminal.Gui](https://github.com/gui-cs/Terminal.Gui) — Terminal.Gui .NET 终端 UI 工具包（跨平台 TUI）。
+
+## Gemini SDK
+
+- [gunpal5/Google_GenerativeAI](https://github.com/gunpal5/Google_GenerativeAI) — .NET Google Gemini SDK（非官方，支持 Function Calling/MCP）。
+
+## 搜索屏蔽列表
+
+- [gyli/Blocklist](https://github.com/gyli/Blocklist) — 搜索引擎垃圾站屏蔽列表（uBlacklist 格式）。
+
+## Clash脚本
+
+- [h0cheung/clash-tun-scripts](https://github.com/h0cheung/clash-tun-scripts) — Clash TUN 模式脚本（cgroup v2 支持）。
+
+## HTTP服务器
+
+- [h2o/h2o](https://github.com/h2o/h2o) — H2O 高性能 HTTP 服务器（支持 HTTP/1.x/2/3）。
+
+## 浏览器脚本集
+
+- [h2y/link-fix](https://github.com/h2y/link-fix) — H2y UserScript 脚本集（翻译/搜索切换/标题修改等）。
+
+## 云存储
+
+- [haiwen/seafile](https://github.com/haiwen/seafile) — Seafile 开源云存储（端到端加密/选择性同步/团队协作）。
+
+## 建站工具
+
+- [halo-dev/halo](https://github.com/halo-dev/halo) — Halo 强大易用的开源建站工具（Java，插件化）。
+
+## 邮件服务器
+
+- [haraka/Haraka](https://github.com/haraka/Haraka) — Haraka Node.js 邮件服务器（高可扩展/插件架构）。
+
+## DevOps平台
+
+- [harness/harness](https://github.com/harness/harness) — Harness 开源开发平台（代码托管/CI/CD/Gitspaces，Drone 下一代）。
+
+## 种子硬链接
+
+- [harrywong/torrenthardlinkhelper](https://github.com/harrywong/torrenthardlinkhelper) — 种子硬链接助手（对比种子文件定位源文件并创建硬链接）。
+
+## 自托管图床
+
+- [HaschekSolutions/pictshare](https://github.com/HaschekSolutions/pictshare) — PictShare 自托管图床/文件分享（图片/GIF/MP4/文本/URL短链，PHP）。
+
+## 嵌入式USB协议栈
+
+- [hathach/tinyusb](https://github.com/hathach/tinyusb) — TinyUSB 嵌入式 USB 主机/设备协议栈（跨平台，支持 50+ MCU 系列）。
+
+## 数位板驱动
+
+- [hawku/TabletDriver](https://github.com/hawku/TabletDriver) — TabletDriver 低延迟数位板驱动（已停止更新，推荐 OpenTabletDriver）。
+
+## Haxe游戏框架
+
+- [HeapsIO/heaps](https://github.com/HeapsIO/heaps) — Heaps 高性能游戏框架（Haxe，跨平台 GPU 2D/3D 渲染）。
+
+## 骑砍XML工具
+
+- [Hecatia-Lapislazuli/XmlTool](https://github.com/Hecatia-Lapislazuli/XmlTool) — 骑砍2 XML 编辑工具（CSV 转换/多文件同步）。
+
+## Unity桌面捕获
+
+- [hecomi/uDesktopDuplication](https://github.com/hecomi/uDesktopDuplication) — Unity 桌面捕获（Desktop Duplication API，多显示器支持）。
+
+## 阅读器服务端
+
+- [hectorqin/reader](https://github.com/hectorqin/reader) — 阅读3服务器版（网络文学搜索阅读，支持书源/RSS/多用户）。
+
+## GlusterFS管理(已停更)
+
+- [heketi/heketi](https://github.com/heketi/heketi) — Heketi GlusterFS RESTful 管理接口（已停止维护，原 K8s/OpenShift 动态卷）。
+
+## REAPER Rust绑定
+
+- [helgoboss/reaper-rs](https://github.com/helgoboss/reaper-rs) — reaper-rs REAPER DAW 的 Rust 绑定（插件/扩展开发）。
+
+## 去中心化网络
+
+- [HelloZeroNet/ZeroNet](https://github.com/HelloZeroNet/ZeroNet) — ZeroNet 去中心化网站（BitTorrent+Bitcoin 加密，无审查/无宕机/零托管成本）。
+
+## Dapper FluentMap(已归档)
+
+- [henkmollema/Dapper-FluentMap](https://github.com/henkmollema/Dapper-FluentMap) — Dapper FluentMap POCO 属性到数据库列的流式映射（已归档）。
+
+## Windows内存清理
+
+- [henrypp/memreduct](https://github.com/henrypp/memreduct) — Mem Reduct Windows 轻量内存管理工具（清理系统缓存/工作集，Native API）。
+
+## 游戏后端服务器
+
+- [heroiclabs/nakama](https://github.com/heroiclabs/nakama) — Nakama 分布式游戏服务器（社交/聊天/多人/排行榜/匹配/购买验证，Go/Lua/TS/JS 扩展）。
+
+## PostgreSQL GPU加速
+
+- [heterodb/pg-strom](https://github.com/heterodb/pg-strom) — PG-Strom PostgreSQL 扩展（GPU/NVME-SSD/Apache Arrow 列式加速）。
+
+## Synology社区包
+
+- [hgy59/spksrc](https://github.com/hgy59/spksrc) — spksrc Synology NAS 社区软件包跨编译框架（SynoCommunity）。
+
+## CEB转PDF
+
+- [hhtczengjing/ceb2pdf](https://github.com/hhtczengjing/ceb2pdf) — ceb2pdf Windows 命令行 CEB 文件转 PDF 工具。
+
+## 格斗游戏
+
+- [hifight/Footsies](https://github.com/hifight/Footsies) — FOOTSIES 2D 格斗游戏（极简控制，训练间距/确认/惩罚）。
+
+## XML转C#
+
+- [hilalhakla/XmlToCSharp](https://github.com/hilalhakla/XmlToCSharp) — XmlToCSharp 在线工具（XML 转 XmlSerializer 兼容 C# 类）。
+
+## PaddleOCR离线组件
+
+- [hiroi-sora/PaddleOCR-json](https://github.com/hiroi-sora/PaddleOCR-json) — PaddleOCR-json 离线图片 OCR（PaddleOCR C++ 封装，管道/TCP 调用，PPOCR-v3/v4）。
+
+## RapidOCR离线组件
+
+- [hiroi-sora/RapidOCR-json](https://github.com/hiroi-sora/RapidOCR-json) — RapidOCR-json 离线图片 OCR（轻量，低内存/CPU 占用，无 AVX 要求）。
+
+## 本地视频管理
+
+- [hitchao/Jvedio](https://github.com/hitchao/Jvedio) — Jvedio 本地视频管理软件（扫描/识别码提取/分类标签/AI 演员识别，WPF）。
+
+## LLM微调框架
+
+- [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) — LLaMA-Factory 零代码大模型微调平台（100+ LLM，CLI/Web UI，RLHF/LoRA/QLoRA）。
+
+## YOLO TensorFlow
+
+- [hizhangp/yolo_tensorflow](https://github.com/hizhangp/yolo_tensorflow) — YOLO TensorFlow 实现（训练/测试，Pascal VOC）。
+
+## B站直播录制
+
+- [HMBSbige/BilibiliLiveRecordDownLoader](https://github.com/HMBSbige/BilibiliLiveRecordDownLoader) — BilibiliLiveRecordDownLoader Bilibili 直播录制（多房间/付费直播/FLV/HLS/fMP4/自动转 MP4）。
+
+## Godot行星生成器
+
+- [Hoimar/Planet-Generator](https://github.com/Hoimar/Planet-Generator) — Planet-Generator Godot 程序化行星生成器（分层噪声/动态 LOD/大气层/水体）。
+
+## Telegram网易云Bot
+
+- [HolgerHuo/telegram-netease-bot](https://github.com/HolgerHuo/telegram-netease-bot) — Telegram 网易云音乐 Bot（搜索/发送音乐，支持 YouTube 提取）。
+
+## SteamOS重实现
+
+- [HoloISO/releases](https://github.com/HoloISO/releases) — HoloISO SteamOS 3 (Holo) 自由重实现（通用 PC 安装，Deck UI/OOBE/Vapor 主题）。
+
+## 回滚网络库(Rust)
+
+- [HouraiTeahouse/backroll-rs](https://github.com/HouraiTeahouse/backroll-rs) — backroll-rs 纯 Rust GGPO 回滚网络库（格斗游戏，异步 I/O，Steam Datagram Relay）。
+
+## 小说搜索引擎
+
+- [howie6879/owllook](https://github.com/howie6879/owllook) — owllook 在线小说垂直搜索引擎（搜书/阅读/收藏/追更，200+ 网站解析，Sanic）。
+
+## 视频生成
+
+- [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) — Open-Sora 开源高效视频生成（Sora 复现，11B 模型，文生视频/图生视频，$200K 训练成本）。
+
+## 异构计算库(已废弃)
+
+- [HSA-Libraries/Bolt](https://github.com/HSA-Libraries/Bolt) — Bolt C++ 异构计算模板库（STL 风格，OpenCL 加速，AMD APU/GPU）。
+
+## 机器视觉教程
+
+- [hsmyy/ComputerVision](https://github.com/hsmyy/ComputerVision) — ComputerVision 机器视觉教程（CS 角度，代码优先，霍夫变换/边缘滤波/分割/特征提取等）。
+
+## 汉字转拼音(.NET)
+
+- [hstarorg/TinyPinyin.Net](https://github.com/hstarorg/TinyPinyin.Net) — TinyPinyin.Net 快速低内存汉字转拼音库（.NET 移植）。
+
+## B站云存储(已废弃)
+
+- [Hsury/BiliDrive](https://github.com/Hsury/BiliDrive) — BiliDrive 哔哩哔哩云（任意文件全速上传下载，分块校验/断点续传）。
+
+## GlusterFS书籍
+
+- [httaotao/glusterfs-book](https://github.com/httaotao/glusterfs-book) — 《GlusterFS 分布式存储》中文书籍（国内首本，源码解析/集群/fuse/xlator）。
+
+## Web SSH
+
+- [huashengdun/webssh](https://github.com/huashengdun/webssh) — WebSSH 浏览器 SSH 客户端（Tornado/Paramiko/xterm.js，密码/公钥/2FA 认证）。
+
+## Rust ML框架
+
+- [huggingface/candle](https://github.com/huggingface/candle) — Candle 极简 Rust ML 框架（GPU 支持/WASM，Whisper/LLaMA/YOLO/SAM 等模型）。
+
+## 分词器
+
+- [huggingface/tokenizers](https://github.com/huggingface/tokenizers) — Tokenizers 高性能分词库（Rust 实现，BPE/WordPiece/Unigram，Python/Node.js/Ruby 绑定）。
+
+## UPnP客户端(Go)
+
+- [huin/goupnp](https://github.com/huin/goupnp) — goupnp Go UPnP 客户端库（SSDP 发现/IGD 端口映射/媒体服务器）。
+
+## Godot场景布置
+
+- [HungryProton/scatter](https://github.com/HungryProton/scatter) — ProtonScatter Godot 4 程序化场景布置插件（草/树/岩石，修改器堆栈/形状定义）。
+
+## DeepSeek代码审查
+
+- [hustcer/deepseek-review](https://github.com/hustcer/deepseek-review) — DeepSeek Code Review GitHub Action / CLI 代码审查（DeepSeek V3/R1，PR 自动审查）。
+
+## TCP性能测试
+
+- [huzhao37/goperf](https://github.com/huzhao37/goperf) — goperf TCP 并发/吞吐量测试工具（支持 SOCKS5 代理测试，Go）。
+
+## 视频帧插值
+
+- [hzwer/ECCV2022-RIFE](https://github.com/hzwer/ECCV2022-RIFE) — RIFE 实时视频帧插值（30+ FPS 2X 720p，任意时间步，16X 插帧）。
+
+## 快速开发平台
+
+- [hzwy23/hauth](https://github.com/hzwy23/hauth) — hauth Go 快速开发平台（JWT/菜单/用户/角色/权限管理，beego 基础）。
+
+## Termux Mono
+
+- [IanusInferus/termux-mono](https://github.com/IanusInferus/termux-mono) — Termux Mono 安装指南（Android Termux 交叉编译 Mono/MSBuild）。
+
+## ChameleonMini固件
+
+- [iceman1001/ChameleonMini-rebooted](https://github.com/iceman1001/ChameleonMini-rebooted) — ChameleonMini RevE Rebooted 固件（NFC 模拟器，开源硬件）。
+
+## iCloud照片下载
+
+- [icloud-photos-downloader/icloud_photos_downloader](https://github.com/icloud-photos-downloader/icloud_photos_downloader) — icloudpd 命令行 iCloud 照片下载（Linux/Windows/macOS，同步/去重/Live Photos/RAW）。
+
+## .NET反编译器
+
+- [icsharpcode/ILSpy](https://github.com/icsharpcode/ILSpy) — ILSpy 开源 .NET 程序集浏览器与反编译器（C# 反编译/整项目导出/元数据浏览，VS 扩展/CLI 工具）。
 

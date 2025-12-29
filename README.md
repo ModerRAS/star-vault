@@ -50,6 +50,8 @@
   - [babalae/better-genshin-impact](https://github.com/babalae/better-genshin-impact) — 原神自动化（视觉/任务/钓鱼等）。
 - DNF
   - [1995chen/dnf](https://github.com/1995chen/dnf) — DNF 容器版本整合（非官方，可能涉及版权/合规风险；此处仅做收藏归档）。
+- Steam
+  - [BeyondDimension/SteamTools](https://github.com/BeyondDimension/SteamTools) — Watt Toolkit（原 Steam++），开源跨平台多功能游戏工具箱（网络加速/账号切换等）。
 
 ## 个人效率
 

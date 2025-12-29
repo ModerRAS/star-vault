@@ -142,6 +142,10 @@
   - [fatedier/frp](https://github.com/fatedier/frp) — 反向代理/内网穿透（将 NAT 后的服务暴露到公网）。
 - 路由/分流数据
   - [17mon/china_ip_list](https://github.com/17mon/china_ip_list) — 中国大陆 IP 段列表（用于路由/分流等场景）。
+- 网络包拦截
+  - [basil00/WinDivert](https://github.com/basil00/WinDivert) — Windows 用户态网络包拦截库（捕获/修改/丢弃/注入）。
+- 网络防火墙
+  - [apernet/OpenGFW](https://github.com/apernet/OpenGFW) — 开源 DIY 防火墙/流量分析（Linux）。
 
 ## 隐私与匿名工具
 

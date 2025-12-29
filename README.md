@@ -118,6 +118,8 @@
   - [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) — 轻量快速的搜索引擎服务（可自托管）。
 - 后端平台/BaaS
   - [supabase/supabase](https://github.com/supabase/supabase) — Postgres 开发平台（Firebase 替代：Auth/Storage/Realtime/Functions，可自托管）。
+- Telegram 机器人
+  - [axiref/telegram-pwsbot](https://github.com/axiref/telegram-pwsbot) — Telegram 频道投稿机器人（支持多图/评论/夜间静音等）。
 
 ## AI
 

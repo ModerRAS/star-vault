@@ -4,7 +4,7 @@
 
 - 总计仓库：1661
 - README 缓存目录：`tmp/readmes/`（不污染仓库）
-- 已人工阅读并分类：205 / 1661
+- 已人工阅读并分类：355 / 1661
 
 ## 目录
 
@@ -41,6 +41,51 @@
 - [Typecho 主题/插件](#typecho-主题插件)
 - [笔记本工具](#笔记本工具)
 - [部署工具](#部署工具)
+- [区块链](#区块链)
+- [文件分享](#文件分享)
+- [下载工具](#下载工具)
+- [网络监控](#网络监控)
+- [数据库工具](#数据库工具)
+- [音乐播放器](#音乐播放器)
+- [博客主题](#博客主题)
+- [媒体播放器](#媒体播放器)
+- [即时通讯](#即时通讯)
+- [路由器固件](#路由器固件)
+- [混沌工程](#混沌工程)
+- [NLP/语义理解](#nlp语义理解)
+- [Windows 兼容性](#windows-兼容性)
+- [教程与学习资源](#教程与学习资源)
+- [网页爬虫/提取](#网页爬虫提取)
+- [逆向工程](#逆向工程)
+- [多Agent框架](#多agent框架)
+- [JS运行时](#js运行时)
+- [KVM工具](#kvm工具)
+- [打印服务](#打印服务)
+- [Flutter资源](#flutter资源)
+- [游戏着色器](#游戏着色器)
+- [跨平台并发库](#跨平台并发库)
+- [Jellyfin主题](#jellyfin主题)
+- [Flutter/Rust通信](#flutterrust通信)
+- [地形生成](#地形生成)
+- [TOTP认证](#totp认证)
+- [远程桌面](#远程桌面)
+- [歌词工具](#歌词工具)
+- [假人客户端](#假人客户端)
+- [CDN优选](#cdn优选)
+- [节点编辑器](#节点编辑器)
+- [WireGuard工具](#wireguard工具)
+- [MarkovJunior](#markovjunior)
+- [AI语音克隆](#ai语音克隆)
+- [打印协议](#打印协议)
+- [SDF生成器](#sdf生成器)
+- [游戏控制器](#游戏控制器)
+- [网络游戏库](#网络游戏库)
+- [iOS规则工具](#ios规则工具)
+- [Electron演示](#electron演示)
+- [防追踪工具](#防追踪工具)
+- [OpenWrt插件](#openwrt插件)
+- [UE脚本插件](#ue脚本插件)
+- [qBittorrent界面](#qbittorrent界面)
 
 ## 游戏辅助
 
@@ -57,6 +102,7 @@
 
 - 笔记/待办
   - [laurent22/joplin](https://github.com/laurent22/joplin) — 开源笔记与 To-do 应用（Markdown、离线优先、可加密同步）。
+  - [blinkospace/blinko](https://github.com/blinkospace/blinko) — AI 卡片笔记应用（支持闪念记录/RAG 检索）。
 - 学习/记忆
   - [ankitects/anki](https://github.com/ankitects/anki) — 间隔重复（Spaced Repetition）记忆学习工具。
 - 照片/归档
@@ -105,6 +151,7 @@
 - 写作/发布
   - [writefreely/writefreely](https://github.com/writefreely/writefreely) — 极简写作与发布平台（可自托管）。
   - [88250/solo](https://github.com/88250/solo) — 小而美的开源博客系统（支持 Docker 部署/导出静态站点）。
+  - [bolo-blog/bolo-solo](https://github.com/bolo-blog/bolo-solo) — 专为程序员设计的博客系统（基于 Solo 二次开发）。
 - 运维与基础设施
   - [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) — 纯 Shell 的 ACME 客户端（自动签发/续期 HTTPS 证书）。
 - CI/CD
@@ -116,6 +163,8 @@
   - [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) — 实时媒体服务器/代理（RTSP/RTMP/WebRTC/HLS/SRT 等）。
 - 搜索与索引
   - [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) — 轻量快速的搜索引擎服务（可自托管）。
+- 网络监控
+  - [Cacti/cacti](https://github.com/Cacti/cacti) — 网络/基础设施监控与图形化工具（RRDTool 前端）。
 - 后端平台/BaaS
   - [supabase/supabase](https://github.com/supabase/supabase) — Postgres 开发平台（Firebase 替代：Auth/Storage/Realtime/Functions，可自托管）。
 - Telegram 机器人
@@ -138,6 +187,9 @@
 
 - 代理/隧道
   - [apernet/hysteria](https://github.com/apernet/hysteria) — 高性能代理/隧道（抗干扰场景）。
+  - [blinksocks/blinksocks](https://github.com/blinksocks/blinksocks) — 代理协议栈框架（可组装多种代理协议）。
+  - [cbeuw/Cloak](https://github.com/cbeuw/Cloak) — 流量伪装插件（将代理流量伪装成普通 HTTPS 访问，对抗审查）。
+  - [comzyh/clash](https://github.com/comzyh/clash) — Clash 规则代理核心（Go，支持多种协议）。
 - 内网穿透/反向代理
   - [fatedier/frp](https://github.com/fatedier/frp) — 反向代理/内网穿透（将 NAT 后的服务暴露到公网）。
 - 路由/分流数据
@@ -173,6 +225,38 @@
   - [azixaka/a2adotnet](https://github.com/azixaka/a2adotnet) — Google A2A 协议 .NET 实现（Agent-to-Agent 通信）。
   - [AvaloniaUI/Citrus.Avalonia](https://github.com/AvaloniaUI/Citrus.Avalonia) — Avalonia 实验主题（多种配色方案）。
   - [bdlukaa/fluent_ui](https://github.com/bdlukaa/fluent_ui) — Flutter 的 Windows Fluent Design UI 组件库。
+  - [Blazored/LocalStorage](https://github.com/Blazored/LocalStorage) — Blazor 本地存储库（LocalStorage/SessionStorage）。
+  - [BlazorFluentUI/BlazorFluentUI](https://github.com/BlazorFluentUI/BlazorFluentUI) — Blazor Fluent UI 组件库（已停止维护，建议迁移到 Microsoft.FluentUI.AspNetCore.Components）。
+  - [bugthesystem/FireSharp](https://github.com/bugthesystem/FireSharp) — .NET Firebase REST API 封装库。
+  - [casbin/Casbin.NET](https://github.com/casbin/Casbin.NET) — .NET 访问控制/权限管理库（支持 RBAC/ABAC 等模型）。
+  - [canton7/Stylet](https://github.com/canton7/Stylet) — 轻量级 WPF MVVM 框架（类似 Caliburn.Micro）。
+  - [cdmdotnet/Manatee.Trello](https://github.com/cdmdotnet/Manatee.Trello) — .NET Trello API 客户端（面向对象 API 封装）。
+  - [cefsharp/CefSharp.Dom](https://github.com/cefsharp/CefSharp.Dom) — CefSharp 的 DOM 操作库（类似 Puppeteer API）。
+  - [chromelyapps/Chromely](https://github.com/chromelyapps/Chromely) — .NET 桌面应用框架（基于 CEF，Electron.NET 轻量替代，已停止维护）。
+  - [chronoxor/NetCoreServer](https://github.com/chronoxor/NetCoreServer) — .NET 高性能异步 Socket 服务端/客户端（TCP/SSL/UDP/HTTP/WebSocket）。
+  - [cincuranet/FirebirdSql.Data.FirebirdClient](https://github.com/cincuranet/FirebirdSql.Data.FirebirdClient) — .NET Firebird 数据库客户端（ADO.NET/EF Core）。
+  - [cmxl/FFmpeg.NET](https://github.com/cmxl/FFmpeg.NET) — .NET FFmpeg 封装库（媒体转码/元数据/缩略图）。
+  - [ClearFoundry/ClearScript](https://github.com/ClearFoundry/ClearScript) — .NET 脚本引擎宿主（支持 V8/JScript/VBScript）。
+  - [CoreyKaylor/Lightning.NET](https://github.com/CoreyKaylor/Lightning.NET) — .NET LMDB 客户端（Lightning Memory-Mapped Database 绑定）。
+  - [curiosity-ai/rocksdb-sharp](https://github.com/curiosity-ai/rocksdb-sharp) — .NET RocksDB 客户端（C# 绑定）。
+  - [Cysharp/csbindgen](https://github.com/Cysharp/csbindgen) — Rust 到 C# 的 FFI 代码生成器（DllImport 自动生成）。
+  - [Cysharp/MagicOnion](https://github.com/Cysharp/MagicOnion) — .NET/Unity gRPC 实时通讯框架（RPC + StreamingHub）。
+  - [Cysharp/MemoryPack](https://github.com/Cysharp/MemoryPack) — 零编码极致性能二进制序列化器（C#/.NET/Unity）。
+  - [Cysharp/NativeMemoryArray](https://github.com/Cysharp/NativeMemoryArray) — .NET 原生内存数组（超大数组支持，无 2GB 限制）。
+  - [Cysharp/UniTask](https://github.com/Cysharp/UniTask) — Unity 零内存分配 async/await 库（高性能异步）。
+  - [daviddesmet/NaCl.Core](https://github.com/daviddesmet/NaCl.Core) — .NET 加密库（ChaCha20/Poly1305/XChaCha20 等）。
+  - [danielgerlag/workflow-core](https://github.com/danielgerlag/workflow-core) — .NET 轻量工作流引擎（可持久化/集群）。
+  - [danielklecha/SharpIppNext](https://github.com/danielklecha/SharpIppNext) — .NET IPP 打印协议客户端/服务端库。
+  - [decPL/SimpleTotp](https://github.com/decPL/SimpleTotp) — .NET TOTP 二次验证库（简单实现）。
+  - [casbin/Casbin.NET](https://github.com/casbin/Casbin.NET) — .NET 访问控制/权限管理库（支持 RBAC/ABAC 等模型）。
+  - [canton7/Stylet](https://github.com/canton7/Stylet) — 轻量级 WPF MVVM 框架（类似 Caliburn.Micro）。
+  - [cdmdotnet/Manatee.Trello](https://github.com/cdmdotnet/Manatee.Trello) — .NET Trello API 客户端（面向对象 API 封装）。
+  - [cefsharp/CefSharp.Dom](https://github.com/cefsharp/CefSharp.Dom) — CefSharp 的 DOM 操作库（类似 Puppeteer API）。
+  - [chromelyapps/Chromely](https://github.com/chromelyapps/Chromely) — .NET 桌面应用框架（基于 CEF，Electron.NET 轻量替代，已停止维护）。
+  - [chronoxor/NetCoreServer](https://github.com/chronoxor/NetCoreServer) — .NET 高性能异步 Socket 服务端/客户端（TCP/SSL/UDP/HTTP/WebSocket）。
+  - [cincuranet/FirebirdSql.Data.FirebirdClient](https://github.com/cincuranet/FirebirdSql.Data.FirebirdClient) — .NET Firebird 数据库客户端（ADO.NET/EF Core）。
+  - [cmxl/FFmpeg.NET](https://github.com/cmxl/FFmpeg.NET) — .NET FFmpeg 封装库（媒体转码/元数据/缩略图）。
+  - [ClearFoundry/ClearScript](https://github.com/ClearFoundry/ClearScript) — .NET 脚本引擎宿主（支持 V8/JScript/VBScript）。
 - 游戏开发/CI
   - [aBARICHELLO/godot-ci](https://github.com/aBARICHELLO/godot-ci) — Godot 导出与发布的 CI/CD Docker 镜像模板（GitLab CI/GitHub Actions）。
   - [bitwes/Gut](https://github.com/bitwes/Gut) — Godot 单元测试框架（GUT）。
@@ -210,6 +294,13 @@
   - [amazerol/AvaloniaRibbon](https://github.com/amazerol/AvaloniaRibbon) — Avalonia 的 Ribbon 控件（仿微软 Office/Explorer 风格）。
 - 虚拟化/兼容层
   - [anbox/anbox](https://github.com/anbox/anbox) — Linux 上运行 Android 应用的容器方案（项目已停止维护，建议用 Waydroid）。
+  - [brunodev85/winlator](https://github.com/brunodev85/winlator) — Android 上运行 Windows 应用（基于 Wine/Box86/Box64）。
+- 翻译工具
+  - [Borber/Tran](https://github.com/Borber/Tran) — 简洁的划词翻译工具（Tauri，支持多种翻译 API）。
+- 按键可视化
+  - [brookhong/KeyCastOW](https://github.com/brookhong/KeyCastOW) — Windows 按键可视化工具（演示/教学用）。
+- 音乐播放器
+  - [caijinyc/here](https://github.com/caijinyc/here) — Electron 网易云音乐第三方播放器。
 
 ## Web 框架与后端
 
@@ -247,14 +338,23 @@
   - [ageitgey/face_recognition](https://github.com/ageitgey/face_recognition) — Python 人脸识别库（基于 dlib，简洁易用）。
 - OCR/文档处理
   - [allenai/olmocr](https://github.com/allenai/olmocr) — PDF/图像 OCR 转 Markdown 工具（支持表格/公式/手写）。
+  - [btahir/auntie-pdf](https://github.com/btahir/auntie-pdf) — AI 驱动的 PDF 文档解析工具（结构化提取）。
 - 开源 LLM/预训练模型
   - [allenai/OLMoE](https://github.com/allenai/OLMoE) — 开源 MoE 语言模型（1.3B 活跃 / 6.9B 总参数）。
 - LLM 代理/网关
   - [BerriAI/litellm](https://github.com/BerriAI/litellm) — 统一调用 100+ LLM 的代理（OpenAI 格式，支持 Bedrock/Azure/Anthropic 等）。
 - 语音合成/克隆
   - [babysor/MockingBird](https://github.com/babysor/MockingBird) — 中文语音克隆（PyTorch，仅需少量样本训练）。
+- 音频生成
+  - [boson-ai/higgs-audio](https://github.com/boson-ai/higgs-audio) — AI 音频生成模型（基于 Llama 架构）。
 - 视频生成/动漫
   - [bilibili/Index-anisora](https://github.com/bilibili/Index-anisora) — B 站开源动画视频生成模型（AniSora，多种风格）。
+- 文本生成
+  - [BlinkDL/AI-Writer](https://github.com/BlinkDL/AI-Writer) — AI 写小说工具（基于 RWKV 模型）。
+- 脉冲神经网络/脑科学
+  - [BrainCog-X/Brain-Cog](https://github.com/BrainCog-X/Brain-Cog) — 脉冲神经网络（SNN）框架（支持脑启发 AI/类脑计算）。
+- AI 艺术/交互
+  - [BRomans/PERSONA](https://github.com/BRomans/PERSONA) — AI 艺术装置（强化学习驱动的共情机器人/艺术创作）。
 
 ## 流程引擎/工作流
 
@@ -265,11 +365,18 @@
 - Minecraft
   - [Akarin-project/Akarin](https://github.com/Akarin-project/Akarin) — Paper 分支服务端（Minecraft，含多线程等增强）。
   - [aleksilassila/litematica-printer](https://github.com/aleksilassila/litematica-printer) — Litematica MOD 扩展（自动打印/建造）。
+  - [Bukkit/Bukkit](https://github.com/Bukkit/Bukkit) — Minecraft 服务器 API（Bukkit 插件开发基础）。
+  - [boy0001/FastAsyncWorldedit](https://github.com/boy0001/FastAsyncWorldedit) — WorldEdit 加速分支（更快的世界编辑操作）。
+  - [CaffeineMC/lithium](https://github.com/CaffeineMC/lithium) — Minecraft 性能优化 MOD（Fabric，通用游戏逻辑优化）。
+  - [CaffeineMC/phosphor-fabric](https://github.com/CaffeineMC/phosphor-fabric) — Minecraft 光照引擎优化 MOD（Fabric）。
+- 骑马与砍杀
+  - [BUTR/Bannerlord.BUTRLoader](https://github.com/BUTR/Bannerlord.BUTRLoader) — 骑马与砍杀2：霸主 MOD 加载器。
 
 ## 安全/取证
 
 - [AdminTest0/SharpWxDump](https://github.com/AdminTest0/SharpWxDump) — 获取 Windows 微信信息/数据库密钥（取证/渗透场景）。
 - [bee-san/RustScan](https://github.com/bee-san/RustScan) — 超快端口扫描器（Rust，支持脚本引擎）。
+- [cckuailong/vulbase](https://github.com/cckuailong/vulbase) — 漏洞文库合集（GitBook 化，含 Peiqi 文库等）。
 
 ## 数据处理
 
@@ -306,6 +413,7 @@
   - [AdguardTeam/urlfilter](https://github.com/AdguardTeam/urlfilter) — AdGuard 过滤规则引擎（Go 实现）。
 - Docker/容器
   - [aiogram/telegram-bot-api](https://github.com/aiogram/telegram-bot-api) — Telegram Bot API 非官方 Docker 镜像（自托管）。
+  - [budtmo/docker-android](https://github.com/budtmo/docker-android) — Docker Android 模拟器（支持 VNC/WebRTC/自动化测试）。
 - 数据存储/备份
   - [amadvance/snapraid](https://github.com/amadvance/snapraid) — 磁盘阵列备份/奇偶校验保护（家庭媒体中心场景）。
 - 数据集/训练数据
@@ -316,6 +424,35 @@
   - [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) — GitHub README 动态统计卡片生成器。
 - C++ 库
   - [arvidn/libtorrent](https://github.com/arvidn/libtorrent) — C++ BitTorrent 客户端库（完整协议实现）。
+  - [catid/shorthair](https://github.com/catid/shorthair) — 低延迟网络传输纠错库（C++，Reed-Solomon 编解码，已弃用建议用 CauchyCaterpillar）。
+- 权限控制
+  - [casbin/casbin](https://github.com/casbin/casbin) — Go 访问控制/权限管理库（支持 ACL/RBAC/ABAC 等模型）。
+- JavaScript 加密
+  - [brix/crypto-js](https://github.com/brix/crypto-js) — JavaScript 加密库（已停止维护，建议迁移到 crypto-es 或 Web Crypto API）。
+- BitTorrent 工具
+  - [casey/intermodal](https://github.com/casey/intermodal) — BitTorrent 元信息文件（.torrent）命令行工具（Rust）。
+- 命令运行器
+  - [casey/just](https://github.com/casey/just) — 命令运行器（类似 make，更简洁跨平台）。
+- 数据库 CI/CD
+  - [bytebase/bytebase](https://github.com/bytebase/bytebase) — 数据库 Schema 变更与版本控制平台（支持多种数据库）。
+- Rust 系统调用
+  - [bytecodealliance/rustix](https://github.com/bytecodealliance/rustix) — Rust 对 POSIX/Unix/Linux 系统调用的安全绑定。
+- Rust Telegram Bot
+  - [bytesnake/telebot](https://github.com/bytesnake/telebot) — Rust Telegram Bot 库（Tokio 异步）。
+- Rust Serverless
+  - [cloudflare/workers-rs](https://github.com/cloudflare/workers-rs) — Rust 编写 Cloudflare Workers（WASM）。
+- Rust 网络代理框架
+  - [cloudflare/pingora](https://github.com/cloudflare/pingora) — Rust 高性能代理框架（Cloudflare 开源，处理 40M+ RPS）。
+- 网络协议实现
+  - [brewlin/net-protocol](https://github.com/brewlin/net-protocol) — Go 实现的网络协议栈（用户态 TCP/IP/ARP/ICMP 等）。
+- Tox 协议绑定
+  - [codedust/go-tox](https://github.com/codedust/go-tox) — Tox 协议 Go 绑定。
+- 爬虫
+  - [blueskyz/DHTCrawler](https://github.com/blueskyz/DHTCrawler) — DHT 网络爬虫（采集磁力链接/种子信息）。
+- C++ 网络库
+  - [chenshuo/muduo](https://github.com/chenshuo/muduo) — C++ 高性能多线程网络库（Reactor 模式）。
+- Lua 游戏框架
+  - [cloudwu/skynet](https://github.com/cloudwu/skynet) — Lua 游戏服务器框架（Actor 模型，中国游戏行业广泛使用）。
 - SQLite 扩展
   - [asg017/sqlite-vss](https://github.com/asg017/sqlite-vss) — SQLite 向量搜索扩展（基于 Faiss，项目已转向 sqlite-vec）。
 
@@ -327,6 +464,8 @@
 
 - [armory3d/armory](https://github.com/armory3d/armory) — Blender 集成的 3D 游戏引擎（完整工作流）。
 - [bepu/bepuphysics2](https://github.com/bepu/bepuphysics2) — C# 高性能 3D 刚体物理引擎。
+- [candycat1992/Unity_Shaders_Book](https://github.com/candycat1992/Unity_Shaders_Book) — 《Unity Shader 入门精要》随书源码。
+- [CatDarkGame/PostProcess-CelShading](https://github.com/CatDarkGame/PostProcess-CelShading) — UE4 后处理卡通渲染（Cel Shading）。
 - 游戏翻译
   - [bbepis/XUnity.AutoTranslator](https://github.com/bbepis/XUnity.AutoTranslator) — Unity 游戏自动翻译插件（支持多种翻译器）。
 
@@ -335,6 +474,264 @@
 - 笔记/待办
   - [laurent22/joplin](https://github.com/laurent22/joplin) — 开源笔记与 To-do 应用（Markdown、离线优先、可加密同步）。
   - [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) — Notion 开源替代（Flutter/Rust，本地优先）。
+
+## 操作系统
+
+- [asterinas/asterinas](https://github.com/asterinas/asterinas) — Rust 编写的安全 OS 内核（Linux ABI 兼容）。
+- [Atlas-OS/Atlas](https://github.com/Atlas-OS/Atlas) — Windows 优化/精简定制系统。
+- FreeBSD 容器
+  - [BastilleBSD/bastille](https://github.com/BastilleBSD/bastille) — FreeBSD Jail 容器管理系统。
+
+## 字体
+
+- [atelier-anchor/smiley-sans](https://github.com/atelier-anchor/smiley-sans) — 得意黑，开源中文黑体字体。
+- [Buernia/Tiejili](https://github.com/Buernia/Tiejili) — 铁蒺藜体，开源中文字体（基于 Klee One 补字）。
+
+## 浏览器自动化
+
+- [AutomaApp/automa](https://github.com/AutomaApp/automa) — 浏览器自动化扩展（可视化工作流）。
+
+## 3D 打印
+
+- [bambulab/BambuStudio](https://github.com/bambulab/BambuStudio) — 拓竹 3D 打印切片软件（基于 PrusaSlicer）。
+
+## 个人财务
+
+- [beancount/beancount](https://github.com/beancount/beancount) — 纯文本复式记账工具（Python）。
+
+## 智能家居
+
+- [banto6/haier](https://github.com/banto6/haier) — 海尔智家 Home Assistant 集成（接入设备到 HA）。
+
+## 视频处理
+
+- [baowenbo/DAIN](https://github.com/baowenbo/DAIN) — 深度感知视频帧插值（提升帧率）。
+
+## Android 工具
+
+- [barry-ran/QtScrcpy](https://github.com/barry-ran/QtScrcpy) — 跨平台 Android 投屏控制工具（Qt/scrcpy）。
+
+## 笔记本工具
+
+- [BartoszCichecki/LenovoLegionToolkit](https://github.com/BartoszCichecki/LenovoLegionToolkit) — Lenovo Legion 笔记本工具箱（替代 Vantage，项目已归档）。
+
+## 部署工具
+
+- [basecamp/kamal](https://github.com/basecamp/kamal) — 零停机 Web 应用部署（Docker/SSH，任意服务器）。
+
+## 流程引擎/工作流
+
+- [alibaba/bulbasaur](https://github.com/alibaba/bulbasaur) — 轻量级 Java 流程引擎（可持久化/调度/人工任务）。
+- [besley/Slickflow](https://github.com/besley/Slickflow) — .NET 工作流引擎（支持 LLM 节点/AI 集成）。
+
+## 直播/录播工具
+
+- [bililive-go/bililive-go](https://github.com/bililive-go/bililive-go) — 多平台直播录制工具（B站/斗鱼/虎牙等）。
+- [BililiveRecorder/BililiveRecorder](https://github.com/BililiveRecorder/BililiveRecorder) — mikufans/B站录播姬（自动修复弹幕/断流）。
+
+## 自动字幕/翻译
+
+- [BingLingGroup/autosub](https://github.com/BingLingGroup/autosub) — 自动语音识别与字幕生成（支持多种 API）。
+
+## 网络规则/分流
+
+- [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) — iOS/各代理工具分流规则与脚本集合。
+
+## 论坛/社区
+
+- [banq/jivejdon](https://github.com/banq/jivejdon) — DDD/EventSourcing 实践的 Java 论坛（生产可用）。
+
+## Typecho 主题/插件
+
+- [BigCoke233/miracles](https://github.com/BigCoke233/miracles) — Typecho 响应式博客主题（Pjax/夜间模式）。
+
+## 开发 IDE
+
+- [BaihaiAI/IDP](https://github.com/BaihaiAI/IDP) — 开源 AI IDE（原生支持 Python/SQL，Rust 内核）。
+
+## 区块链
+
+- [BytomDAO/bytom](https://github.com/BytomDAO/bytom) — 比原链（Bytom），资产互联区块链协议。
+
+## 文件分享
+
+- [blenderskool/blaze](https://github.com/blenderskool/blaze) — P2P 文件分享 WebApp（WebTorrent/WebRTC，无需服务器中转）。
+
+## 下载工具
+
+- [c0re100/qBittorrent-Enhanced-Edition](https://github.com/c0re100/qBittorrent-Enhanced-Edition) — qBittorrent 增强版（自动屏蔽迅雷/吸血客户端等）。
+- [caorushizi/mediago](https://github.com/caorushizi/mediago) — m3u8/流媒体视频下载工具（支持多平台）。
+
+## 网络监控
+
+- [Cacti/cacti](https://github.com/Cacti/cacti) — 网络/基础设施监控与图形化工具（RRDTool 前端）。
+
+## 数据库工具
+
+- [bytebase/bytebase](https://github.com/bytebase/bytebase) — 数据库 Schema 变更与版本控制平台（支持多种数据库）。
+
+## 音乐播放器
+
+- [caijinyc/here](https://github.com/caijinyc/here) — Electron 网易云音乐第三方播放器。
+
+## Web 应用
+
+- [caijinyc/vue-music-webapp](https://github.com/caijinyc/vue-music-webapp) — Vue 网易云音乐 WebApp 实践项目。
+
+## 音乐流媒体
+
+- [carlreinke/Hypersonic](https://github.com/carlreinke/Hypersonic) — 自托管音乐流媒体服务器（Subsonic API 子集实现）。
+
+## 游戏辅助
+
+- 明日方舟
+  - [ArkMowers/arknights-mower](https://github.com/ArkMowers/arknights-mower) — 明日方舟自动化/脚本工具。
+- 原神
+  - [babalae/better-genshin-impact](https://github.com/babalae/better-genshin-impact) — 原神自动化（视觉/任务/钓鱼等）。
+- DNF
+  - [1995chen/dnf](https://github.com/1995chen/dnf) — DNF 容器版本整合（非官方，可能涉及版权/合规风险；此处仅做收藏归档）。
+- Steam
+  - [BeyondDimension/SteamTools](https://github.com/BeyondDimension/SteamTools) — Watt Toolkit（原 Steam++），开源跨平台多功能游戏工具箱（网络加速/账号切换等）。
+- 幻兽帕鲁
+  - [cheahjs/palworld-save-tools](https://github.com/cheahjs/palworld-save-tools) — 幻兽帕鲁存档转换工具（SAV 转 JSON 及反向）。
+- 王者荣耀
+  - [cndaqiang/autowzry](https://github.com/cndaqiang/autowzry) — 王者荣耀自动化演示（图像识别/模拟点击，项目已归档）。
+- 通用
+  - [cheat-engine/cheat-engine](https://github.com/cheat-engine/cheat-engine) — Cheat Engine，内存修改/游戏调试工具（开源）。
+
+## 博客主题
+
+- Jekyll
+  - [chrisanthropic/comical-jekyll-theme](https://github.com/chrisanthropic/comical-jekyll-theme) — Jekyll 网页漫画主题。
+  - [christian-fei/Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search) — Jekyll 纯客户端搜索插件。
+- 博客园
+  - [cjunn/cnblog_theme_atum](https://github.com/cjunn/cnblog_theme_atum) — 博客园 Vue 简约主题。
+
+## 媒体播放器
+
+- [clsid2/mpc-hc](https://github.com/clsid2/mpc-hc) — Media Player Classic - Home Cinema，开源视频播放器（Windows）。
+- [ciderapp/Cider](https://github.com/ciderapp/Cider) — Apple Music 第三方跨平台客户端（Electron，项目已归档）。
+
+## 即时通讯
+
+- [cloverstudio/Spika](https://github.com/cloverstudio/Spika) — 即时通讯模块（Web/iOS/Android + 后端）。
+
+## 路由器固件
+
+- [clockzhong/ASUSWRT_RT-AC1200GPlus](https://github.com/clockzhong/ASUSWRT_RT-AC1200GPlus) — 华硕 RT-AC1200G+ 路由器官方固件源码。
+
+## 混沌工程
+
+- [chaosblade-io/chaosblade](https://github.com/chaosblade-io/chaosblade) — ChaosBlade 混沌工程工具（阿里开源，支持多种故障注入场景）。
+
+## NLP/语义理解
+
+- [chatopera/clause](https://github.com/chatopera/clause) — Chatopera 语义理解服务（聊天机器人意图识别/槽位提取）。
+
+## Windows 兼容性
+
+- [Chuyu-Team/YY-Thunks](https://github.com/Chuyu-Team/YY-Thunks) — Windows API 兼容层（让新应用兼容旧版 Windows）。
+
+## 教程与学习资源
+
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) — "从零构建 X" 教程合集（数据库/Docker/Git/编程语言等）。
+- [chaoyi-wu/Finetune_LLAMA](https://github.com/chaoyi-wu/Finetune_LLAMA) — 微调 LLAMA 的中文指南（多种加速策略）。
+
+## 网页爬虫/提取
+
+- [codelucas/newspaper](https://github.com/codelucas/newspaper) — Python 新闻文章提取库（正文/作者/日期等）。
+
+## 逆向工程
+
+- [CensoredUsername/unrpyc](https://github.com/CensoredUsername/unrpyc) — Ren'Py 脚本反编译工具（.rpyc 转 .rpy）。
+- [CodingGay/BlackDex](https://github.com/CodingGay/BlackDex) — Android 脱壳工具（支持 5.0~12，无需 Root）。
+
+## AI
+
+- 应用平台/LLM 应用构建
+  - [langgenius/dify](https://github.com/langgenius/dify) — 开源 LLM 应用开发平台（可自托管）。
+  - [AIDotNet/koala-ai](https://github.com/AIDotNet/koala-ai) — 含知识库/工作流/智能体的 AI 系统服务。
+- Agent/编排 SDK
+  - [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) — LLM/Agent 编排与集成 SDK。
+- 终端 AI 助手
+  - [charmbracelet/crush](https://github.com/charmbracelet/crush) — 终端 AI 编程助手（支持多模型/MCP/LSP）。
+- 本地推理引擎/基础设施
+  - [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) — 本地 LLM 推理（C/C++，多平台）。
+  - [amd/RyzenAI-SW](https://github.com/amd/RyzenAI-SW) — AMD Ryzen AI 软件/运行时（NPU 推理加速）。
+
+## 数据库工具
+
+- [bytebase/bytebase](https://github.com/bytebase/bytebase) — 数据库 Schema 变更与版本控制平台（支持多种数据库）。
+- [CodePhiliaX/Chat2DB](https://github.com/CodePhiliaX/Chat2DB) — AI 驱动的数据库客户端与报表工具（支持 10+ 种数据库）。
+
+## 自托管服务
+
+- 视频平台
+  - [Chocobozzz/PeerTube](https://github.com/Chocobozzz/PeerTube) — 去中心化视频平台（联邦/P2P，YouTube 替代）。
+- 博客引擎
+  - [cnblogs/fluss](https://github.com/cnblogs/fluss) — .NET 博客引擎（开发中）。
+
+## 自动字幕/翻译
+
+- [BingLingGroup/autosub](https://github.com/BingLingGroup/autosub) — 自动语音识别与字幕生成（支持多种 API）。
+- [chidiwilliams/buzz](https://github.com/chidiwilliams/buzz) — 离线音频转录与翻译工具（基于 Whisper）。
+
+## 网络与代理
+
+- 代理/隧道
+  - [apernet/hysteria](https://github.com/apernet/hysteria) — 高性能代理/隧道（抗干扰场景）。
+  - [blinksocks/blinksocks](https://github.com/blinksocks/blinksocks) — 代理协议栈框架（可组装多种代理协议）。
+  - [cbeuw/Cloak](https://github.com/cbeuw/Cloak) — 流量伪装插件（将代理流量伪装成普通 HTTPS 访问，对抗审查）。
+  - [changlan/kytan](https://github.com/changlan/kytan) — Rust P2P VPN（高性能点对点 VPN）。
+- 代理客户端
+  - [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) — Clash Meta GUI（Tauri，跨平台代理客户端）。
+- 解锁/绕过限制
+  - [cnsilvan/UnblockNeteaseMusic](https://github.com/cnsilvan/UnblockNeteaseMusic) — 解锁网易云音乐灰色歌曲（Go 实现）。
+
+## 游戏服务端/MOD
+
+- Minecraft
+  - [Akarin-project/Akarin](https://github.com/Akarin-project/Akarin) — Paper 分支服务端（Minecraft，含多线程等增强）。
+  - [aleksilassila/litematica-printer](https://github.com/aleksilassila/litematica-printer) — Litematica MOD 扩展（自动打印/建造）。
+  - [Bukkit/Bukkit](https://github.com/Bukkit/Bukkit) — Minecraft 服务器 API（Bukkit 插件开发基础）。
+  - [boy0001/FastAsyncWorldedit](https://github.com/boy0001/FastAsyncWorldedit) — WorldEdit 加速分支（更快的世界编辑操作）。
+  - [CaffeineMC/lithium](https://github.com/CaffeineMC/lithium) — Minecraft 性能优化 MOD（Fabric，通用游戏逻辑优化）。
+  - [CaffeineMC/phosphor-fabric](https://github.com/CaffeineMC/phosphor-fabric) — Minecraft 光照引擎优化 MOD（Fabric）。
+  - [CloudburstMC/Nukkit](https://github.com/CloudburstMC/Nukkit) — Minecraft Bedrock 版服务端（Java 实现）。
+- 骑马与砍杀
+  - [BUTR/Bannerlord.BUTRLoader](https://github.com/BUTR/Bannerlord.BUTRLoader) — 骑马与砍杀2：霸主 MOD 加载器。
+
+## 游戏开发
+
+- [armory3d/armory](https://github.com/armory3d/armory) — Blender 集成的 3D 游戏引擎（完整工作流）。
+- [bepu/bepuphysics2](https://github.com/bepu/bepuphysics2) — C# 高性能 3D 刚体物理引擎。
+- [candycat1992/Unity_Shaders_Book](https://github.com/candycat1992/Unity_Shaders_Book) — 《Unity Shader 入门精要》随书源码。
+- [CatDarkGame/PostProcess-CelShading](https://github.com/CatDarkGame/PostProcess-CelShading) — UE4 后处理卡通渲染（Cel Shading）。
+- [ClarkThyLord/Voxel-Core](https://github.com/ClarkThyLord/Voxel-Core) — Godot 体素游戏插件（VoxelObject/编辑器）。
+- [ceceppa/anima](https://github.com/ceceppa/anima) — Godot 动画插件（简化 UI 动画创建）。
+- 游戏翻译
+  - [bbepis/XUnity.AutoTranslator](https://github.com/bbepis/XUnity.AutoTranslator) — Unity 游戏自动翻译插件（支持多种翻译器）。
+
+## Android 自动化
+
+- [clearw5/Auto.js](https://github.com/clearw5/Auto.js) — Android JavaScript 自动化平台（4.1 开源版本，Pro 版不再开源）。
+
+## 智能家居
+
+- [banto6/haier](https://github.com/banto6/haier) — 海尔智家 Home Assistant 集成（接入设备到 HA）。
+- [cmroche/greeclimate](https://github.com/cmroche/greeclimate) — Gree 空调 Python 控制库（异步，可集成 Home Assistant）。
+
+## OCR/表格识别
+
+- [chineseocr/table-ocr](https://github.com/chineseocr/table-ocr) — 文档表格自动检测与重建（UNet/Darknet）。
+
+## BitTorrent Tracker
+
+- [chihaya/chihaya](https://github.com/chihaya/chihaya) — Go BitTorrent Tracker（HTTP/UDP，高可用/Prometheus 监控）。
+
+## 音频处理
+
+- [chsh2/SlowSampler2](https://github.com/chsh2/SlowSampler2) — VST3 音频采样器插件（时间拉伸/音高调整）。
 
 ---
 

@@ -66,6 +66,8 @@
 
 - 密码管理
   - [bitwarden/server](https://github.com/bitwarden/server) — Bitwarden 服务端（可自托管）。
+- 2FA 应用
+  - [beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) — 免费安全的 Android 2FA 应用（HOTP/TOTP，加密备份）。
 - 网页归档
   - [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) — 自托管网页归档/收藏与保存。
 - 监控与告警
@@ -90,6 +92,8 @@
   - [logseq/logseq](https://github.com/logseq/logseq) — 本地优先的知识管理与笔记。
 - 自动化/工作流
   - [n8n-io/n8n](https://github.com/n8n-io/n8n) — 工作流自动化平台（可自托管）。
+- 评论系统
+  - [ArtalkJS/Artalk](https://github.com/ArtalkJS/Artalk) — 自托管评论系统（Go + JS）。
 - 下载/离线下载
   - [gngpp/thunder](https://github.com/gngpp/thunder) — 从迅雷群晖套件提取的远程下载服务（支持 Docker/OpenWrt/Alpine 等）。
 - 代码托管

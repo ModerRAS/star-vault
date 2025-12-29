@@ -226,6 +226,12 @@
   - [allenai/olmocr](https://github.com/allenai/olmocr) — PDF/图像 OCR 转 Markdown 工具（支持表格/公式/手写）。
 - 开源 LLM/预训练模型
   - [allenai/OLMoE](https://github.com/allenai/OLMoE) — 开源 MoE 语言模型（1.3B 活跃 / 6.9B 总参数）。
+- LLM 代理/网关
+  - [BerriAI/litellm](https://github.com/BerriAI/litellm) — 统一调用 100+ LLM 的代理（OpenAI 格式，支持 Bedrock/Azure/Anthropic 等）。
+- 语音合成/克隆
+  - [babysor/MockingBird](https://github.com/babysor/MockingBird) — 中文语音克隆（PyTorch，仅需少量样本训练）。
+- 视频生成/动漫
+  - [bilibili/Index-anisora](https://github.com/bilibili/Index-anisora) — B 站开源动画视频生成模型（AniSora，多种风格）。
 
 ## 流程引擎/工作流
 

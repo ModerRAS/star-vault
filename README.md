@@ -4,11 +4,12 @@
 
 - 总计仓库：1661
 - README 缓存目录：`tmp/readmes/`（不污染仓库）
-- 已人工阅读并分类：39 / 1661
+- 已人工阅读并分类：205 / 1661
 
 ## 目录
 
 - [游戏辅助](#游戏辅助)
+- [游戏](#游戏)
 - [个人效率](#个人效率)
 - [自托管服务](#自托管服务)
 - [AI](#ai)
@@ -17,6 +18,17 @@
 - [云原生与 Serverless](#云原生与-serverless)
 - [开发工具](#开发工具)
 - [资源与清单](#资源与清单)
+- [桌面应用](#桌面应用)
+- [Web 框架与后端](#web-框架与后端)
+- [3D/VR/AR](#3dvrar)
+- [流程引擎/工作流](#流程引擎工作流)
+- [游戏服务端/MOD](#游戏服务端mod)
+- [安全/取证](#安全取证)
+- [数据处理](#数据处理)
+- [游戏开发](#游戏开发)
+- [操作系统](#操作系统)
+- [字体](#字体)
+- [浏览器自动化](#浏览器自动化)
 
 ## 游戏辅助
 
@@ -24,6 +36,8 @@
   - [ArkMowers/arknights-mower](https://github.com/ArkMowers/arknights-mower) — 明日方舟自动化/脚本工具。
 - 原神
   - [babalae/better-genshin-impact](https://github.com/babalae/better-genshin-impact) — 原神自动化（视觉/任务/钓鱼等）。
+- DNF
+  - [1995chen/dnf](https://github.com/1995chen/dnf) — DNF 容器版本整合（非官方，可能涉及版权/合规风险；此处仅做收藏归档）。
 
 ## 个人效率
 
@@ -31,6 +45,8 @@
   - [laurent22/joplin](https://github.com/laurent22/joplin) — 开源笔记与 To-do 应用（Markdown、离线优先、可加密同步）。
 - 学习/记忆
   - [ankitects/anki](https://github.com/ankitects/anki) — 间隔重复（Spaced Repetition）记忆学习工具。
+- 照片/归档
+  - [3846masa/upload-gphotos](https://github.com/3846masa/upload-gphotos) — 上传到 Google Photos 的非官方工具/库（项目已弃用）。
 
 ## 自托管服务
 
@@ -60,6 +76,8 @@
   - [logseq/logseq](https://github.com/logseq/logseq) — 本地优先的知识管理与笔记。
 - 自动化/工作流
   - [n8n-io/n8n](https://github.com/n8n-io/n8n) — 工作流自动化平台（可自托管）。
+- 下载/离线下载
+  - [gngpp/thunder](https://github.com/gngpp/thunder) — 从迅雷群晖套件提取的远程下载服务（支持 Docker/OpenWrt/Alpine 等）。
 - 代码托管
   - [gogs/gogs](https://github.com/gogs/gogs) — 轻量自托管 Git 服务。
 - 项目管理
@@ -68,6 +86,7 @@
   - [knadh/listmonk](https://github.com/knadh/listmonk) — 自托管邮件列表/Newsletter 管理。
 - 写作/发布
   - [writefreely/writefreely](https://github.com/writefreely/writefreely) — 极简写作与发布平台（可自托管）。
+  - [88250/solo](https://github.com/88250/solo) — 小而美的开源博客系统（支持 Docker 部署/导出静态站点）。
 - 运维与基础设施
   - [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) — 纯 Shell 的 ACME 客户端（自动签发/续期 HTTPS 证书）。
 - CI/CD
@@ -90,6 +109,10 @@
   - [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) — LLM/Agent 编排与集成 SDK。
 - 本地推理引擎/基础设施
   - [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) — 本地 LLM 推理（C/C++，多平台）。
+- 图像生成/创作工具
+  - [Acly/krita-ai-diffusion](https://github.com/Acly/krita-ai-diffusion) — Krita 内的生成式 AI 插件（Stable Diffusion/ComfyUI 等）。
+- 传统机器学习/计算机视觉（.NET）
+  - [accord-net/framework](https://github.com/accord-net/framework) — .NET 的机器学习/统计/计算机视觉库（项目已归档）。
 
 ## 网络与代理
 
@@ -97,6 +120,8 @@
   - [apernet/hysteria](https://github.com/apernet/hysteria) — 高性能代理/隧道（抗干扰场景）。
 - 内网穿透/反向代理
   - [fatedier/frp](https://github.com/fatedier/frp) — 反向代理/内网穿透（将 NAT 后的服务暴露到公网）。
+- 路由/分流数据
+  - [17mon/china_ip_list](https://github.com/17mon/china_ip_list) — 中国大陆 IP 段列表（用于路由/分流等场景）。
 
 ## 隐私与匿名工具
 
@@ -110,10 +135,153 @@
 ## 开发工具
 
 - [traefik/yaegi](https://github.com/traefik/yaegi) — Go 解释器（可执行脚本/插件/REPL）。
+- .NET 生态
+  - [aaubry/YamlDotNet](https://github.com/aaubry/YamlDotNet) — .NET 的 YAML 解析/序列化库。
+  - [2881099/csredis](https://github.com/2881099/csredis) — C# Redis 客户端（支持 Sentinel/Cluster 等）。
+  - [6tail/lunar-csharp](https://github.com/6tail/lunar-csharp) — 公历/农历/节气等日历与历法工具库（C#）。
+  - [abpframework/abp](https://github.com/abpframework/abp) — 面向企业应用的 .NET/ASP.NET Core 架构与模块化框架。
+  - [aalhour/C-Sharp-Algorithms](https://github.com/aalhour/C-Sharp-Algorithms) — C# 数据结构与算法实现合集。
+- 游戏开发/CI
+  - [aBARICHELLO/godot-ci](https://github.com/aBARICHELLO/godot-ci) — Godot 导出与发布的 CI/CD Docker 镜像模板（GitLab CI/GitHub Actions）。
+- 前端/Electron
+  - [aceimnorstuvwxz/electron-notifications-lite](https://github.com/aceimnorstuvwxz/electron-notifications-lite) — Electron 通知模块（用 BrowserWindow 模拟，偏跨平台稳定）。
+- Python 绑定/通信协议
+  - [abbat/pytoxcore](https://github.com/abbat/pytoxcore) — ToxCore 的 Python 绑定（项目声明已停止维护）。
 
 ## 资源与清单
 
 - [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) — 自托管软件清单（参考索引）。
+- [52cik/bilibili-haruna](https://github.com/52cik/bilibili-haruna) — B 站看板娘 Live2D 模型/资源集合（用于博客/站点挂件等）。
+- [AdrienTorris/awesome-blazor](https://github.com/AdrienTorris/awesome-blazor) — Blazor 资源清单（.NET Web 框架）。
+- [Allar/ue5-style-guide](https://github.com/Allar/ue5-style-guide) — Unreal Engine 4/5 代码风格指南与最佳实践。
+- [alecthw/mmdb_china_ip_list](https://github.com/alecthw/mmdb_china_ip_list) — MaxMind MMDB 中国 IP 列表整合（用于分流/路由）。
+
+## 桌面应用
+
+- 终端
+  - [alacritty/alacritty](https://github.com/alacritty/alacritty) — 快速跨平台 GPU 加速终端模拟器（Rust）。
+- 下载管理器
+  - [agalwood/Motrix](https://github.com/agalwood/Motrix) — 全功能下载管理器（HTTP/FTP/BT/磁力链）。
+- UI 组件库
+  - [amwx/FluentAvalonia](https://github.com/amwx/FluentAvalonia) — Avalonia 的 Fluent Design 控件库。
+  - [amazerol/AvaloniaRibbon](https://github.com/amazerol/AvaloniaRibbon) — Avalonia 的 Ribbon 控件（仿微软 Office/Explorer 风格）。
+- 虚拟化/兼容层
+  - [anbox/anbox](https://github.com/anbox/anbox) — Linux 上运行 Android 应用的容器方案（项目已停止维护，建议用 Waydroid）。
+
+## Web 框架与后端
+
+- Rust
+  - [actix/actix-web](https://github.com/actix/actix-web) — Rust 高性能 Web 框架（Actix 生态）。
+  - [actix/actix](https://github.com/actix/actix) — Rust Actor 框架（Actix 生态基础）。
+- .NET
+  - [AlphaYu/adnc](https://github.com/AlphaYu/adnc) — .NET 微服务/分布式开源框架（含 DDD 架构示例）。
+  - [Aguafrommars/Identity.Redis](https://github.com/Aguafrommars/Identity.Redis) — ASP.NET Identity 的 Redis 存储实现。
+- Nginx/反向代理
+  - [alibaba/tengine](https://github.com/alibaba/tengine) — 阿里巴巴基于 Nginx 扩展的 Web 服务器（100% 兼容 Nginx，含 HTTP/3 等增强功能）。
+- HTTP 调试/代理
+  - [alibaba/anyproxy](https://github.com/alibaba/anyproxy) — Node.js 可配置 HTTP/HTTPS 代理服务器。
+
+## 3D/VR/AR
+
+- [alicevision/Meshroom](https://github.com/alicevision/Meshroom) — 开源 3D 重建软件/摄影测量（节点式可视化流水线）。
+- [aframevr/aframe](https://github.com/aframevr/aframe) — Web VR/AR 框架（HTML 声明式）。
+
+## AI
+
+- 应用平台/LLM 应用构建
+  - [langgenius/dify](https://github.com/langgenius/dify) — 开源 LLM 应用开发平台（可自托管）。
+  - [AIDotNet/koala-ai](https://github.com/AIDotNet/koala-ai) — 含知识库/工作流/智能体的 AI 系统服务。
+- Agent/编排 SDK
+  - [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) — LLM/Agent 编排与集成 SDK。
+- 本地推理引擎/基础设施
+  - [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) — 本地 LLM 推理（C/C++，多平台）。
+  - [amd/RyzenAI-SW](https://github.com/amd/RyzenAI-SW) — AMD Ryzen AI 软件/运行时（NPU 推理加速）。
+- 图像生成/创作工具
+  - [Acly/krita-ai-diffusion](https://github.com/Acly/krita-ai-diffusion) — Krita 内的生成式 AI 插件（Stable Diffusion/ComfyUI 等）。
+  - [Aloereed/stable-diffusion-webui-ipex-arc](https://github.com/Aloereed/stable-diffusion-webui-ipex-arc) — 支持 Intel Arc GPU 的 Stable Diffusion WebUI（IPEX）。
+- 传统机器学习/计算机视觉
+  - [accord-net/framework](https://github.com/accord-net/framework) — .NET 的机器学习/统计/计算机视觉库（项目已归档）。
+  - [ageitgey/face_recognition](https://github.com/ageitgey/face_recognition) — Python 人脸识别库（基于 dlib，简洁易用）。
+- OCR/文档处理
+  - [allenai/olmocr](https://github.com/allenai/olmocr) — PDF/图像 OCR 转 Markdown 工具（支持表格/公式/手写）。
+- 开源 LLM/预训练模型
+  - [allenai/OLMoE](https://github.com/allenai/OLMoE) — 开源 MoE 语言模型（1.3B 活跃 / 6.9B 总参数）。
+
+## 流程引擎/工作流
+
+- [alibaba/bulbasaur](https://github.com/alibaba/bulbasaur) — 轻量级 Java 流程引擎（可持久化/调度/人工任务）。
+
+## 游戏服务端/MOD
+
+- Minecraft
+  - [Akarin-project/Akarin](https://github.com/Akarin-project/Akarin) — Paper 分支服务端（Minecraft，含多线程等增强）。
+  - [aleksilassila/litematica-printer](https://github.com/aleksilassila/litematica-printer) — Litematica MOD 扩展（自动打印/建造）。
+
+## 安全/取证
+
+- [AdminTest0/SharpWxDump](https://github.com/AdminTest0/SharpWxDump) — 获取 Windows 微信信息/数据库密钥（取证/渗透场景）。
+
+## 数据处理
+
+- 压缩/解压
+  - [adamhathcock/sharpcompress](https://github.com/adamhathcock/sharpcompress) — 纯 C# 压缩库（解压 rar/7z/zip/tar/gzip 等，支持流式）。
+- 文本转换
+  - [Alir3z4/html2text](https://github.com/Alir3z4/html2text) — HTML 转 Markdown/纯文本（Python）。
+  - [Alir3z4/python-sanitize](https://github.com/Alir3z4/python-sanitize) — HTML 安全清理库（Python）。
+
+## 开发工具
+
+- [traefik/yaegi](https://github.com/traefik/yaegi) — Go 解释器（可执行脚本/插件/REPL）。
+- .NET 生态
+  - [aaubry/YamlDotNet](https://github.com/aaubry/YamlDotNet) — .NET 的 YAML 解析/序列化库。
+  - [2881099/csredis](https://github.com/2881099/csredis) — C# Redis 客户端（支持 Sentinel/Cluster 等）。
+  - [6tail/lunar-csharp](https://github.com/6tail/lunar-csharp) — 公历/农历/节气等日历与历法工具库（C#）。
+  - [abpframework/abp](https://github.com/abpframework/abp) — 面向企业应用的 .NET/ASP.NET Core 架构与模块化框架。
+  - [aalhour/C-Sharp-Algorithms](https://github.com/aalhour/C-Sharp-Algorithms) — C# 数据结构与算法实现合集。
+  - [Alan-FGR/minECS](https://github.com/Alan-FGR/minECS) — 极简 ECS（Entity-Component-System）框架（C#）。
+  - [alanmcgovern/monotorrent](https://github.com/alanmcgovern/monotorrent) — .NET BitTorrent 客户端库（完整协议支持）。
+  - [alanmcgovern/Mono.Nat](https://github.com/alanmcgovern/Mono.Nat) — .NET NAT 穿透库（UPnP/NAT-PMP）。
+  - [ant-design-blazor/ant-design-blazor](https://github.com/ant-design-blazor/ant-design-blazor) — Blazor 的 Ant Design UI 组件库。
+- 游戏开发/CI
+  - [aBARICHELLO/godot-ci](https://github.com/aBARICHELLO/godot-ci) — Godot 导出与发布的 CI/CD Docker 镜像模板（GitLab CI/GitHub Actions）。
+  - [AlexDarigan/wat](https://github.com/AlexDarigan/wat) — Godot GDScript 单元测试框架。
+  - [aigamedev/btsk](https://github.com/aigamedev/btsk) — 行为树入门套件（游戏 AI）。
+- 前端/Electron
+  - [aceimnorstuvwxz/electron-notifications-lite](https://github.com/aceimnorstuvwxz/electron-notifications-lite) — Electron 通知模块（用 BrowserWindow 模拟，偏跨平台稳定）。
+- Python 绑定/通信协议
+  - [abbat/pytoxcore](https://github.com/abbat/pytoxcore) — ToxCore 的 Python 绑定（项目声明已停止维护）。
+  - [aitjcize/PyTox](https://github.com/aitjcize/PyTox) — Tox 协议 Python 绑定（已弃用，建议用 tox_profile）。
+  - [alexbakker/SharpTox](https://github.com/alexbakker/SharpTox) — Tox 协议 C# 绑定。
+- 广告过滤
+  - [AdguardTeam/urlfilter](https://github.com/AdguardTeam/urlfilter) — AdGuard 过滤规则引擎（Go 实现）。
+- Docker/容器
+  - [aiogram/telegram-bot-api](https://github.com/aiogram/telegram-bot-api) — Telegram Bot API 非官方 Docker 镜像（自托管）。
+- 数据存储/备份
+  - [amadvance/snapraid](https://github.com/amadvance/snapraid) — 磁盘阵列备份/奇偶校验保护（家庭媒体中心场景）。
+- 数据集/训练数据
+  - [alex000kim/nsfw_data_scraper](https://github.com/alex000kim/nsfw_data_scraper) — NSFW 图像数据集采集脚本（用于训练分类器）。
+- 统一存储抽象
+  - [apache/opendal](https://github.com/apache/opendal) — 统一数据访问层（支持多种存储后端，多语言绑定）。
+- GitHub 工具
+  - [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) — GitHub README 动态统计卡片生成器。
+- C++ 库
+  - [arvidn/libtorrent](https://github.com/arvidn/libtorrent) — C++ BitTorrent 客户端库（完整协议实现）。
+- SQLite 扩展
+  - [asg017/sqlite-vss](https://github.com/asg017/sqlite-vss) — SQLite 向量搜索扩展（基于 Faiss，项目已转向 sqlite-vec）。
+
+## 游戏
+
+- [Anuken/Mindustry](https://github.com/Anuken/Mindustry) — 自动化塔防即时策略游戏（Java/开源）。
+
+## 游戏开发
+
+- [armory3d/armory](https://github.com/armory3d/armory) — Blender 集成的 3D 游戏引擎（完整工作流）。
+
+## 个人效率
+
+- 笔记/待办
+  - [laurent22/joplin](https://github.com/laurent22/joplin) — 开源笔记与 To-do 应用（Markdown、离线优先、可加密同步）。
+  - [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) — Notion 开源替代（Flutter/Rust，本地优先）。
 
 ---
 

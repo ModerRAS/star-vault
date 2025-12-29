@@ -1222,3 +1222,185 @@
 
 - [ephtracy/ephtracy.github.io](https://github.com/ephtracy/ephtracy.github.io) — MagicaVoxel 个人项目页面。
 
+## 缓冲队列
+
+- [eventhorizon-cli/BufferQueue](https://github.com/eventhorizon-cli/BufferQueue) — .NET 高性能缓冲队列（多分区/消费组/无锁设计）。
+
+## UE蓝图插件
+
+- [EverNewJoy/VictoryPlugin](https://github.com/EverNewJoy/VictoryPlugin) — Unreal Engine 蓝图扩展节点库（100+ 额外节点）。
+
+## 进化树工具
+
+- [evolbioinfo/gotree](https://github.com/evolbioinfo/gotree) — Go 系统发育树命令行工具（Newick/Nexus/PhyloXML）。
+
+## QQ机器人
+
+- [Executor-Cheng/Mirai-CSharp](https://github.com/Executor-Cheng/Mirai-CSharp) — .NET Mirai QQ 机器人框架。
+
+## 个人支付
+
+- [Exrick/xpay](https://github.com/Exrick/xpay) — 个人收款支付系统（支付宝/微信，Java）。
+
+## MC协议分析
+
+- [extremeheat/prismarine-inspector](https://github.com/extremeheat/prismarine-inspector) — Minecraft 协议包分析工具（Chrome DevTools 风格）。
+
+## 网络代理框架
+
+- [eycorsican/go-tun2socks](https://github.com/eycorsican/go-tun2socks) — Go TUN2SOCKS 实现（用户空间 TCP/IP 栈）。
+- [eycorsican/leaf](https://github.com/eycorsican/leaf) — Rust 多功能代理框架（高可用/流量复用/规则路由）。
+
+## 云盘
+
+- [eyebluecn/tank](https://github.com/eyebluecn/tank) — 蓝眼云盘（Go+Vue，支持 WebDAV/共享空间）。
+
+## HTTP服务器教程
+
+- [EZLippi/Tinyhttpd](https://github.com/EZLippi/Tinyhttpd) — Tinyhttpd 源码学习镜像（约 500 行 C 代码的 HTTP 服务器）。
+
+## ChatGPT提示词
+
+- [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) — ChatGPT 提示词合集（适用于各种 AI 模型）。
+
+## 负载均衡
+
+- [fabiolb/fabio](https://github.com/fabiolb/fabio) — Consul 集成零配置负载均衡 HTTP(S)/TCP 路由器。
+
+## MC Mod框架
+
+- [FabricMC/fabric-api](https://github.com/FabricMC/fabric-api) — Fabric Minecraft Mod API（模组必需钩子库）。
+
+## KV存储引擎
+
+- [facebook/rocksdb](https://github.com/facebook/rocksdb) — RocksDB 高性能嵌入式 KV 数据库（LSM-Tree，支持 GPU）。
+
+## 威胁情报
+
+- [facebook/ThreatExchange](https://github.com/facebook/ThreatExchange) — Meta 威胁情报共享平台（含 PDQ/TMK 哈希算法）。
+
+## 向量搜索
+
+- [facebookresearch/faiss](https://github.com/facebookresearch/faiss) — Faiss 高效相似性搜索与聚类库（支持 GPU/十亿级向量）。
+
+## 3D重建
+
+- [facebookresearch/MCC](https://github.com/facebookresearch/MCC) — MCC 多视角压缩编码 3D 重建（PyTorch）。
+
+## 多语言翻译
+
+- [facebookresearch/seamless_communication](https://github.com/facebookresearch/seamless_communication) — Seamless 多语言语音翻译模型（约 100 种语言，实时流式）。
+
+## Steam SDK
+
+- [Facepunch/Facepunch.Steamworks](https://github.com/Facepunch/Facepunch.Steamworks) — .NET Steamworks 封装（单 DLL，跨平台，Unity 支持）。
+
+## 轻小说下载
+
+- [fakeboboliu/wenku8epub](https://github.com/fakeboboliu/wenku8epub) — 轻小说文库下载转 EPUB 工具。
+
+## BT嗅探器
+
+- [fanpei91/torsniff](https://github.com/fanpei91/torsniff) — BitTorrent 种子嗅探器（DHT 网络，Go）。
+
+## 远程桌面
+
+- [fanxiushu/xdisp_virt](https://github.com/fanxiushu/xdisp_virt) — 跨平台远程桌面控制（支持 AirPlay/WebRTC/NDI 等）。
+
+## DIY流媒体
+
+- [farfalleflickan/cmyflix](https://github.com/farfalleflickan/cmyflix) — 类 Netflix 自托管流媒体（C 重写，极快，静态页面生成）。
+
+## 内网穿透
+
+- [fatedier/frp](https://github.com/fatedier/frp) — frp 高性能反向代理/内网穿透工具（支持 TCP/UDP/HTTP/HTTPS）。
+
+## 本地Copilot
+
+- [fauxpilot/fauxpilot](https://github.com/fauxpilot/fauxpilot) — FauxPilot 本地 GitHub Copilot 替代（CodeGen + Triton）。
+
+## qBittorrent客户端
+
+- [fedarovich/qbittorrent-net-client](https://github.com/fedarovich/qbittorrent-net-client) — .NET qBittorrent Web API 客户端。
+
+## WPF通知
+
+- [Federerer/Notifications.Wpf](https://github.com/Federerer/Notifications.Wpf) — WPF Toast 通知库。
+
+## 漫画阅读器
+
+- [feilongfl/Cimoc](https://github.com/feilongfl/Cimoc) — Android 在线漫画阅读器（多漫画源）。
+
+## Claude配置
+
+- [feiskyer/claude-code-settings](https://github.com/feiskyer/claude-code-settings) — Claude Code 设置/命令/技能集合（Vibe Coding 工作流）。
+
+## DNS分流规则
+
+- [felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list) — 中国域名 DNS 加速列表（dnsmasq/AdGuardHome 等）。
+
+## RSS机器人
+
+- [fengkx/NodeRSSBot](https://github.com/fengkx/NodeRSSBot) — Telegram RSS 订阅机器人（Node.js）。
+
+## Godot图表
+
+- [fenix-hub/godot-engine.easy-charts](https://github.com/fenix-hub/godot-engine.easy-charts) — Godot 图表插件（折线/柱状/饼图等）。
+
+## Unity渲染
+
+- [FernRP/FernRPExample](https://github.com/FernRP/FernRPExample) — FernRP Unity URP 渲染扩展示例（风格化渲染）。
+
+## IPFS客户端
+
+- [ferristseng/rust-ipfs-api](https://github.com/ferristseng/rust-ipfs-api) — Rust IPFS HTTP API 客户端。
+
+## 爬虫ETL
+
+- [ferventdesert/Hawk](https://github.com/ferventdesert/Hawk) — Hawk 可视化爬虫 ETL 工具（C#/WPF，无需编程）。
+
+## 内网穿透
+
+- [ffay/lanproxy](https://github.com/ffay/lanproxy) — 内网穿透代理（Java，支持 TCP，有 Web 管理界面）。
+
+## 安全知识库
+
+- [ffffffff0x/1earn](https://github.com/ffffffff0x/1earn) — 安全知识框架（渗透/运维/取证/加固等）。
+
+## NLP资源
+
+- [fighting41love/funNLP](https://github.com/fighting41love/funNLP) — 中文 NLP 资源库（词库/语料/预训练/工具合集）。
+
+## iOS推送
+
+- [Finb/Bark](https://github.com/Finb/Bark) — Bark iOS 自定义推送工具（APNs，自托管服务端）。
+
+## 语音识别
+
+- [FireRedTeam/FireRedASR](https://github.com/FireRedTeam/FireRedASR) — FireRedASR 工业级中文语音识别模型（开源 SOTA）。
+
+## Unity网络框架
+
+- [FirstGearGames/FishNet](https://github.com/FirstGearGames/FishNet) — Fish-Net Unity 高性能网络框架（MMO/射击/竞技等）。
+- [FirstGearGames/FishyFacepunch](https://github.com/FirstGearGames/FishyFacepunch) — Fish-Net Steam P2P 传输层（Facepunch）。
+
+## 浏览器翻译
+
+- [fishjar/kiss-translator](https://github.com/fishjar/kiss-translator) — KISS Translator 双语对照翻译扩展（多翻译引擎/AI）。
+
+## FFmpeg教程
+
+- [FiveYellowMice/how-to-convert-videos-with-ffmpeg-zh](https://github.com/FiveYellowMice/how-to-convert-videos-with-ffmpeg-zh) — FFmpeg 视频转码中文教程。
+
+## 游戏翻译
+
+- [fkiliver/SakuraTranslator](https://github.com/fkiliver/SakuraTranslator) — Unity 游戏本地 AI 翻译器（基于 Sakura 模型）。
+
+## 输入法方案
+
+- [fkxxyz/rime-cloverpinyin](https://github.com/fkxxyz/rime-cloverpinyin) — 四叶草拼音 Rime 输入方案（类搜狗习惯，开箱即用）。
+
+## 游戏引擎
+
+- [FlaxEngine/FlaxEngine](https://github.com/FlaxEngine/FlaxEngine) — Flax Engine 高质量 3D 游戏引擎（C++/C#，开源）。
+

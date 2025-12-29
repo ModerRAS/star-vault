@@ -4,7 +4,7 @@
 
 - 总计仓库：1661
 - README 缓存目录：`tmp/readmes/`（不污染仓库）
-- 已人工阅读并分类：629 / 1661
+- 已人工阅读并分类：729 / 1661
 
 ## 目录
 
@@ -1976,4 +1976,329 @@
 ## .NET反编译器
 
 - [icsharpcode/ILSpy](https://github.com/icsharpcode/ILSpy) — ILSpy 开源 .NET 程序集浏览器与反编译器（C# 反编译/整项目导出/元数据浏览，VS 扩展/CLI 工具）。
+
+## Comet推送服务器
+
+- [ideawu/icomet](https://github.com/ideawu/icomet) — icomet C1000K Comet/Push 服务器（libevent，实时推送，HTTP Long-polling）。
+
+## 小爱音箱AI
+
+- [idootop/mi-gpt](https://github.com/idootop/mi-gpt) — MiGPT 小爱音箱接入大模型（ChatGPT/豆包，流式响应/角色扮演/长短期记忆，Node.js）。
+
+## MCP服务器
+
+- [idosal/git-mcp](https://github.com/idosal/git-mcp) — GitMCP 远程 MCP 服务器（GitHub 仓库文档/代码访问，消除 AI 幻觉）。
+
+## Rime输入法配置
+
+- [iDvel/rime-ice](https://github.com/iDvel/rime-ice) — 雾凇拼音 Rime 输入法配置（全拼/双拼，长期维护词库，多平台）。
+
+## 全局光照演示
+
+- [iftodebogdan/GITechDemo](https://github.com/iftodebogdan/GITechDemo) — GITechDemo 全局光照技术演示（PBR/HDR/延迟着色/CSM/SSAO/SSR/DOF，DirectX 11）。
+
+## 直播流录制
+
+- [ihmily/StreamCap](https://github.com/ihmily/StreamCap) — StreamCap 多平台直播流录制客户端（40+ 平台，循环监控/定时任务/自动转码，Electron）。
+
+## 明日方舟Telegram Bot
+
+- [IJNKAWAKAZE/arknights_bot](https://github.com/IJNKAWAKAZE/arknights_bot) — 明日方舟 Telegram Bot（Go，游戏数据查询）。
+
+## ACGMN内容管理
+
+- [ikaros-dev/ikaros](https://github.com/ikaros-dev/ikaros) — Ikaros ACGMN 内容管理系统（动画/漫画/游戏/音乐/小说资源管理，Java）。
+
+## Rust BT客户端
+
+- [ikatson/rqbit](https://github.com/ikatson/rqbit) — rqbit Rust BitTorrent 客户端（HTTP API/Web UI/流媒体/UPnP）。
+
+## NCM转MP3
+
+- [iKunpw/auto-ncmdump](https://github.com/iKunpw/auto-ncmdump) — auto-ncmdump 网易云 NCM 转 MP3 自动工具。
+
+## Android Box64
+
+- [Ilya114/Box64Droid](https://github.com/Ilya114/Box64Droid) — Box64Droid Android Box64/Box86 Wine 运行 x86_64 程序（已停止开发）。
+
+## Windows节能工具
+
+- [imbushuo/EnergyStar](https://github.com/imbushuo/EnergyStar) — EnergyStar Windows EcoQoS API 节能应用（后台进程节流）。
+
+## MacBook触控板驱动
+
+- [imbushuo/mac-precision-touchpad](https://github.com/imbushuo/mac-precision-touchpad) — mac-precision-touchpad MacBook 触控板 Windows Precision Touchpad 驱动。
+
+## IPTV直播源
+
+- [imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) — IPTV 直播源资源汇总（M3U/M3U8）。
+- [iptv-org/iptv](https://github.com/iptv-org/iptv) — 全球公开 IPTV 频道集合。
+
+## 透明代理
+
+- [imgk/shadow](https://github.com/imgk/shadow) — shadow 透明代理客户端（shadowsocks/trojan/socks5/http/wireguard/v2ray，Windows/Linux）。
+
+## Minecraft MOD
+
+- [ImpactDevelopment/ImpactIssues](https://github.com/ImpactDevelopment/ImpactIssues) — Impact Minecraft 客户端（实用工具 Mod）。
+- [JaylyDev/terminator](https://github.com/JaylyDev/terminator) — Terminator Minecraft 基岩版附加包。
+- [jediminer543/JMT-MCMT](https://github.com/jediminer543/JMT-MCMT) — MCMT Minecraft 多线程 Mod（Forge，世界/实体/TileEntity 并行）。
+
+## Jekyll主题
+
+- [inded/Jekyll_modern-blog](https://github.com/inded/Jekyll_modern-blog) — Jekyll 现代博客主题。
+
+## Telegram RSS Bot
+
+- [indes/flowerss-bot](https://github.com/indes/flowerss-bot) — flowerss-bot Telegram RSS Bot（订阅/instant view/Group/Channel 支持，Go）。
+- [iovxw/rssbot](https://github.com/iovxw/rssbot) — rssbot Telegram RSS Bot（Rust）。
+
+## 跨平台消息互联
+
+- [infnan/LilyWhiteBot](https://github.com/infnan/LilyWhiteBot) — LilyWhiteBot 多平台群组互联机器人（Telegram/IRC/Discord）。
+- [JQ-Networks/UnifiedMessageRelay](https://github.com/JQ-Networks/UnifiedMessageRelay) — UnifiedMessageRelay 多平台消息转发框架（QQ/Telegram/Line/Discord 互联，Python）。
+
+## 原神辅助
+
+- [infstellar/genshin_impact_assistant](https://github.com/infstellar/genshin_impact_assistant) — 原神自动辅助（自动战斗/刷秘境/采集）。
+- [IrisRainbowNeko/genshin_autoplay_domain](https://github.com/IrisRainbowNeko/genshin_autoplay_domain) — 原神自动刷秘境（目标检测/跟踪）。
+- [IrisRainbowNeko/genshin_auto_fish](https://github.com/IrisRainbowNeko/genshin_auto_fish) — 原神自动钓鱼（YOLOX/DQN）。
+
+## 电子书工具
+
+- [innov8d/epub](https://github.com/innov8d/epub) — epub EPUB 转 Markdown 转换器。
+
+## 通用代理客户端
+
+- [InterceptSuite/ProxyBridge](https://github.com/InterceptSuite/ProxyBridge) — ProxyBridge 通用代理客户端（Proxifier 替代，TCP/UDP 路由）。
+
+## 网络爬虫
+
+- [internetarchive/heritrix3](https://github.com/internetarchive/heritrix3) — Heritrix 网络档案爬虫（Internet Archive 使用，Java）。
+
+## .NET AOP框架
+
+- [inversionhourglass/Rougamo](https://github.com/inversionhourglass/Rougamo) — 肉夹馍 .NET 静态 AOP 组件（编译时 IL 织入）。
+
+## IPFS工具
+
+- [ipfs-rust/ipfs-embed](https://github.com/ipfs-rust/ipfs-embed) — ipfs-embed IPFS 嵌入式实现（Rust，p2p）。
+- [ipfs-search/ipfs-search](https://github.com/ipfs-search/ipfs-search) — ipfs-search IPFS 搜索引擎。
+- [ipfs/go-ds-s3](https://github.com/ipfs/go-ds-s3) — go-ds-s3 IPFS S3 数据存储实现。
+
+## DNS转发器
+
+- [IrineSistiana/mosdns](https://github.com/IrineSistiana/mosdns) — mosdns DNS 转发器/分流器（Go，插件化）。
+
+## IronPython
+
+- [IronLanguages/ironpython3](https://github.com/IronLanguages/ironpython3) — IronPython 3（.NET Python 实现）。
+
+## P2P通信协议
+
+- [irungentoo/toxcore](https://github.com/irungentoo/toxcore) — toxcore Tox P2P 通讯协议核心（加密/去中心化，C）。
+
+## 游戏资源工具
+
+- [isHarryh/Ark-Unpacker](https://github.com/isHarryh/Ark-Unpacker) — Ark-Unpacker 明日方舟资源批量解包器。
+
+## Java TUN设备
+
+- [isotes/tun-io](https://github.com/isotes/tun-io) — tun-io Java TUN 设备库（Linux/macOS）。
+
+## osu!客户端
+
+- [itdelatrisu/opsu](https://github.com/itdelatrisu/opsu) — opsu! osu! 开源客户端（Java）。
+
+## PDF处理
+
+- [itext/itext-dotnet](https://github.com/itext/itext-dotnet) — iText PDF 库（.NET）。
+- [J-F-Liu/lopdf](https://github.com/J-F-Liu/lopdf) — lopdf Rust PDF 操作库。
+
+## ML框架转换
+
+- [ivy-llc/ivy](https://github.com/ivy-llc/ivy) — Ivy ML 框架转换器（JAX/TensorFlow/PyTorch 互转）。
+
+## 索引代理
+
+- [Jackett/Jackett](https://github.com/Jackett/Jackett) — Jackett Torznab/TorrentPotato 代理（索引器聚合，对接 Sonarr/Radarr 等）。
+
+## IM通信框架
+
+- [JackJiang2011/MobileIMSDK](https://github.com/JackJiang2011/MobileIMSDK) — MobileIMSDK 全平台 IM 通信框架（UDP/TCP/WebSocket，Android/iOS/Java）。
+
+## Android浏览器源码
+
+- [JackyAndroid/AndroidChromium](https://github.com/JackyAndroid/AndroidChromium) — AndroidChromium Chromium Android 版源码（AndroidStudio 调试）。
+
+## 静态网站生成器
+
+- [jackyzha0/quartz](https://github.com/jackyzha0/quartz) — Quartz 数字花园/笔记发布工具（Markdown 转静态站点）。
+
+## B站数据分析
+
+- [Jannchie/BiliOB](https://github.com/Jannchie/BiliOB) — BiliOB B站观测者（UP主/视频数据分析）。
+
+## 3D建模工具
+
+- [JannisX11/blockbench](https://github.com/JannisX11/blockbench) — Blockbench 免费开源低多边形模型编辑器（像素纹理，Minecraft 专用格式）。
+
+## 应用网关/WAF
+
+- [Janusec/janusec](https://github.com/Janusec/janusec) — Janusec 应用网关（WAF/CC 防护/HTTPS/OAuth2 认证，Go）。
+
+## 跨平台C库
+
+- [jart/cosmopolitan](https://github.com/jart/cosmopolitan) — Cosmopolitan Libc 跨平台 C/C++ 库（单文件运行于 Linux/Mac/Windows/FreeBSD/BIOS）。
+
+## 词云可视化
+
+- [jasondavies/d3-cloud](https://github.com/jasondavies/d3-cloud) — d3-cloud 词云布局（D3.js，Canvas 渲染）。
+
+## 自动化脚本
+
+- [JavisPeng/taojinbi](https://github.com/JavisPeng/taojinbi) — 淘金币/芭芭农场自动化脚本（Auto.js）。
+
+## SciPy中文教程
+
+- [jayleicn/scipy-lecture-notes-zh-CN](https://github.com/jayleicn/scipy-lecture-notes-zh-CN) — SciPy Lecture Notes 中文版（Python 科学计算教程）。
+
+## 联邦社交平台
+
+- [jaywink/socialhome](https://github.com/jaywink/socialhome) — Socialhome 联邦式个人主页与社交网络（ActivityPub/Diaspora）。
+
+## .NET程序集处理
+
+- [jbevain/cecil](https://github.com/jbevain/cecil) — Mono.Cecil .NET 程序集分析与修改库（无需加载程序集即可操作 IL）。
+
+## Hugo主题
+
+- [jchatkinson/HugoMDL](https://github.com/jchatkinson/HugoMDL) — HugoMDL Material Design Lite Hugo 主题。
+
+## .NET缓存库
+
+- [jchristn/Caching](https://github.com/jchristn/Caching) — Caching 高性能 .NET 缓存库（FIFO/LRU 淘汰策略，过期/持久化/事件通知）。
+
+## 加密库
+
+- [jedisct1/libsodium](https://github.com/jedisct1/libsodium) — libsodium 现代加密库（加密/签名/哈希，跨平台）。
+
+## 容器镜像工具
+
+- [jelipo/ocipack-rs](https://github.com/jelipo/ocipack-rs) — ocipack 无运行时快速构建 Docker/OCI 镜像（Rust）。
+
+## 内存分配器
+
+- [jemalloc/jemalloc](https://github.com/jemalloc/jemalloc) — jemalloc 通用内存分配器（FreeBSD libc 分配器，低碎片/高并发）。
+
+## 安全分析工具
+
+- [jeromesegura/EKFiddle](https://github.com/jeromesegura/EKFiddle) — EKFiddle Fiddler 恶意流量分析扩展（Exploit Kit 检测）。
+
+## 流程图库
+
+- [jerosoler/Drawflow](https://github.com/jerosoler/Drawflow) — Drawflow 简单数据流编辑器（纯 JS，节点/连接/缩放/导入导出）。
+
+## OpenWrt主题
+
+- [jerrykuku/luci-theme-argon](https://github.com/jerrykuku/luci-theme-argon) — Argon OpenWrt LuCI 主题（清爽现代，明暗切换，自定义登录背景）。
+
+## 嵌入式JS引擎
+
+- [jerryscript-project/jerryscript](https://github.com/jerryscript-project/jerryscript) — JerryScript 轻量 JavaScript 引擎（物联网/微控制器，<64KB RAM/<200KB Flash，ES5.1）。
+
+## NAT穿透
+
+- [jflyup/nat_traversal](https://github.com/jflyup/nat_traversal) — nat_traversal 对称 NAT 穿透实现（端口预测/TTL，Go）。
+
+## 绘图工具
+
+- [jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop) — draw.io 桌面版（Electron，开源绘图/流程图/架构图）。
+
+## 语音识别WebUI
+
+- [jhj0517/Whisper-WebUI](https://github.com/jhj0517/Whisper-WebUI) — Whisper-WebUI 语音识别（Gradio UI，字幕生成/翻译/VAD/说话人分离）。
+
+## 语音合成
+
+- [jik876/hifi-gan](https://github.com/jik876/hifi-gan) — HiFi-GAN 高保真语音合成（GAN 波形生成，实时，PyTorch）。
+- [jing332/tts-server-android](https://github.com/jing332/tts-server-android) — TTS Server Android 文本转语音应用（微软 TTS，多引擎/朗读听书）。
+
+## Synology补丁
+
+- [jinlife/Synology_Photos_Face_Patch](https://github.com/jinlife/Synology_Photos_Face_Patch) — Synology Photos 人脸识别补丁（DS918+/DS3615xs GPU 限制绕过）。
+
+## Excel处理(Rust)
+
+- [jmcnamara/rust_xlsxwriter](https://github.com/jmcnamara/rust_xlsxwriter) — rust_xlsxwriter Rust Excel xlsx 写入库（高性能/兼容性好）。
+
+## 资源清单
+
+- [jobbole/awesome-dotnet-cn](https://github.com/jobbole/awesome-dotnet-cn) — DotNet 资源大全中文版。
+- [jobbole/awesome-python-cn](https://github.com/jobbole/awesome-python-cn) — Python 资源大全中文版。
+- [jobbole/awesome-sysadmin-cn](https://github.com/jobbole/awesome-sysadmin-cn) — 系统管理员资源大全中文版。
+
+## Telegram频道评论Bot
+
+- [JogleLew/channel-helper-bot](https://github.com/JogleLew/channel-helper-bot) — Channel Helper Bot Telegram 频道评论功能（自动/手动模式，Python）。
+
+## Godot ECS
+
+- [jonchun/gd-ecs](https://github.com/jonchun/gd-ecs) — gd-ecs Godot ECS 实现（实体组件系统，GDScript）。
+
+## BT Tracker
+
+- [JonnyJD/peertracker](https://github.com/JonnyJD/peertracker) — PeerTracker 简单高效 BitTorrent Tracker（PHP/SQLite）。
+
+## Emacs Python IDE
+
+- [jorgenschaefer/elpy](https://github.com/jorgenschaefer/elpy) — Elpy Emacs Python IDE（补全/导航/语法检查/调试，Emacs Lisp）。
+
+## Unity体素行星
+
+- [josebasierra/voxel-planets](https://github.com/josebasierra/voxel-planets) — voxel-planets Unity 体素行星生成（LOD/动态地形修改，Astroneer 风格）。
+
+## RWKV运行器
+
+- [josStorer/RWKV-Runner](https://github.com/josStorer/RWKV-Runner) — RWKV Runner 大模型运行管理工具（一键部署，OpenAI API 兼容，跨平台）。
+
+## 游戏服务器框架
+
+- [JoyMoe/JoyEngine](https://github.com/JoyMoe/JoyEngine) — JoyEngine 分布式高可用在线游戏服务器框架（Lua 脚本/WebSocket，C#）。
+
+## 区块链平台
+
+- [Joystream/joystream](https://github.com/Joystream/joystream) — Joystream 区块链媒体平台（Substrate，视频/创作者经济）。
+
+## Typecho主题
+
+- [jrotty/Shamiko](https://github.com/jrotty/Shamiko) — Shamiko 街角魔族主题 Typecho 二次元自适应主题。
+
+## 物理引擎
+
+- [jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics) — Jolt Physics 多核刚体物理引擎（游戏/VR，Horizon Forbidden West 使用，C++）。
+
+## ECS框架(C++)
+
+- [JuDelCo/Entitas-Cpp](https://github.com/JuDelCo/Entitas-Cpp) — Entitas++ C++11 ECS 框架（Entitas C# 移植）。
+
+## 分布式文件系统
+
+- [juicedata/juicefs](https://github.com/juicedata/juicefs) — JuiceFS 分布式 POSIX 文件系统（对象存储 + 元数据引擎，云原生，Go）。
+
+## 算法库
+
+- [justcoding121/advanced-algorithms](https://github.com/justcoding121/advanced-algorithms) — Advanced.Algorithms C# 数据结构与算法库（各类经典算法泛型实现）。
+
+## HTTP代理
+
+- [justcoding121/titanium-web-proxy](https://github.com/justcoding121/titanium-web-proxy) — Titanium Web Proxy 轻量 HTTP(S) 代理库（C#，拦截/修改/阻断请求响应，SOCKS 支持）。
+
+## AI翻译工具
+
+- [jxq1997216/AITranslator](https://github.com/jxq1997216/AITranslator) — AITranslator 大语言模型翻译工具（MTool/Translator++/SRT/TXT，WPF）。
+
+## 骑砍2开发工具
+
+- [jzebedee/bannerlord_dependency_builder](https://github.com/jzebedee/bannerlord_dependency_builder) — Bannerlord Dependency Builder 骑砍2 CI 依赖包生成工具。
 

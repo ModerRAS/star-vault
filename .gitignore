@@ -1,1 +1,3 @@
 tmp/
+.clj-kondo/
+.lsp/
